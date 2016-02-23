@@ -1,0 +1,2 @@
+# zireael
+Lightweight automation tool
