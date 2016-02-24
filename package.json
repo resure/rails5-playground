@@ -4,7 +4,7 @@
   "description": "Lightweight automation tool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/resure/zireael/issues"
   },
-  "homepage": "https://github.com/resure/zireael#readme"
+  "homepage": "https://github.com/resure/zireael#readme",
+  "devDependencies": {
+    "xo": "^0.12.1"
+  }
 }
