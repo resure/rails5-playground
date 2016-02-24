@@ -2,21 +2,33 @@
   "name": "zireael",
   "version": "0.1.0",
   "description": "Lightweight automation tool",
-  "main": "index.js",
-  "scripts": {
-    "test": "xo"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/resure/zireael.git"
-  },
-  "author": "Gadzhi Gadzhiev <inbox@resure.net> (https://resure.net/)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/resure/zireael/issues"
+  "repository": "resure/zireael",
+  "author": {
+    "name": "Gadzhi Gadzhiev",
+    "email": "inbox@resure.net",
+    "url": "zireael.org"
   },
-  "homepage": "https://github.com/resure/zireael#readme",
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "automation",
+    "user-scripts"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0"
+  },
   "devDependencies": {
+    "ava": "^0.11.0",
     "xo": "^0.12.1"
   }
 }
