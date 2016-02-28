@@ -11,13 +11,13 @@ module.exports = function (config) {
 			[enbBemTechs.files],
 			[enbBemTechs.deps],
 			// node.js
-			[require('enb-diverse-js/techs/node-js'), { target: '?.pre.node.js' }],
+			[require('enb-js/techs/node-js'), { target: '?.pre.node.js' }],
 			[require('enb-modules/techs/prepend-modules'), {
 				source: '?.pre.node.js',
 				target: '?.node.js'
 			}],
 			// browser.js
-			[require('enb-diverse-js/techs/browser-js'), { target: '?.browser.js' }],
+			[require('enb-js/techs/browser-js'), { target: '?.browser.js' }],
 			[require('enb/techs/file-merge'), {
 				target: '?.pre.js',
 				sources: [/* '?.browser.bh.js', */ '?.browser.js']
