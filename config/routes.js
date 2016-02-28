@@ -1,8 +1,7 @@
 'use strict';
 
 const express = require('express');
-/* eslint new-cap: 0 */
-const router = express.Router();
+const router = express.Router(); // eslint-disable-line new-cap
 const ctrl = require('../app/controllers');
 
 router.get('/', ctrl.home);

@@ -1,6 +1,5 @@
 'use strict';
 
-/* eslint no-unused-vars: [2, { "args": "none" }] */
-module.exports = function (req, res, next) {
+module.exports = function (req, res, next) { // eslint-disable-line no-unused-vars
 	res.render('home');
 };
