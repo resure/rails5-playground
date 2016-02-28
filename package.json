@@ -26,6 +26,10 @@
     ]
   },
   "files": [
+    "app",
+    "bundles",
+    "config",
+    "public",
     "index.js",
     "cli.js"
   ],
