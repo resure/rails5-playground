@@ -2,7 +2,8 @@
 
 const express = require('express');
 const router = express.Router(); // eslint-disable-line new-cap
-const ctrl = require('../app/controllers');
+const path = require('path');
+const ctrl = require(path.join(__dirname, '../app/controllers/'));
 
 router.get('/', ctrl.home);
 

@@ -2,7 +2,7 @@
 'use strict';
 
 const meow = require('meow');
-const app = require('./');
+const app = require(__dirname);
 
 const cli = meow(`
     Usage

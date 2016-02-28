@@ -5,7 +5,8 @@ module.exports = function (opts) {
 		process.env.DEBUG = 'server';
 	}
 
-	const app = require('./app.js');
+	const path = require('path');
+	const app = require(path.join(__dirname, 'app.js'));
 	const debug = require('debug')('server');
 	const http = require('http');
 
