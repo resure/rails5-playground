@@ -30,6 +30,7 @@
     "bundles",
     "config",
     "public",
+    "app.js",
     "index.js",
     "cli.js"
   ],
