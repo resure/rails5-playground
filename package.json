@@ -21,6 +21,12 @@
     "deps": "bower install",
     "make": "./node_modules/.bin/enb make -n"
   },
+  "xo": {
+    "ignores": [
+      "libs/**",
+      "bundles/**"
+    ]
+  },
   "files": [
     "index.js",
     "cli.js"
