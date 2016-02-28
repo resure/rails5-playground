@@ -14,7 +14,12 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && ava",
+    "start": "./cli.js --debug",
+    "postinstall": "npm run deps",
+    "setup": "rm -rf libs && rm -rf node_modules && npm install && npm run make",
+    "deps": "bower install",
+    "make": "./node_modules/.bin/enb make -n"
   },
   "files": [
     "index.js",
@@ -32,10 +37,20 @@
     "express-handlebars": "^3.0.0",
     "meow": "^3.7.0",
     "morgan": "1.x.x",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+    "ym": "^0.1.2"
   },
   "devDependencies": {
     "ava": "^0.11.0",
-    "xo": "^0.12.1"
+    "xo": "^0.12.1",
+    "bower": "^1.5.3",
+    "enb": "^1.1.2",
+    "enb-bem-techs": "^2.2.1",
+    "enb-borschik": "^2.3.0",
+    "borschik-tech-cleancss": "^2.1.0",
+    "enb-diverse-js": "^0.1.0",
+    "enb-modules": "^0.2.0",
+    "enb-stylus": "^2.0.0",
+    "enb-bh": "^1.1.0"
   }
 }
