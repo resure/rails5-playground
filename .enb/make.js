@@ -74,12 +74,12 @@ module.exports = function (config) {
 			// essential
 			[enbBemTechs.levels, {
 				levels: [
-					{ path: 'libs/bem-core/common.blocks', check: false },
-					{ path: 'libs/bem-core/desktop.blocks', check: false },
-					{ path: 'libs/bem-components/common.blocks', check: false },
-					{ path: 'libs/bem-components/design/common.blocks', check: false },
-					{ path: 'libs/bem-components/desktop.blocks', check: false },
-					{ path: 'libs/bem-components/design/desktop.blocks', check: false },
+					{ path: 'node_modules/bem-core/common.blocks', check: false },
+					{ path: 'node_modules/bem-core/desktop.blocks', check: false },
+					{ path: 'node_modules/bem-components/common.blocks', check: false },
+					{ path: 'node_modules/bem-components/design/common.blocks', check: false },
+					{ path: 'node_modules/bem-components/desktop.blocks', check: false },
+					{ path: 'node_modules/bem-components/design/desktop.blocks', check: false },
 					'blocks'
 				]
 			}],

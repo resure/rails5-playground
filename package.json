@@ -16,9 +16,7 @@
   "scripts": {
     "test": "xo && ava",
     "start": "./cli.js --debug",
-    "postinstall": "npm run deps",
-    "setup": "rm -rf libs && rm -rf node_modules && npm install && npm run make",
-    "deps": "bower install",
+    "setup": "rm -rf node_modules && npm install && npm run make",
     "make": "./node_modules/.bin/enb make -n"
   },
   "xo": {
@@ -57,6 +55,8 @@
     "enb-diverse-js": "^0.1.0",
     "enb-modules": "^0.2.0",
     "enb-stylus": "^2.0.0",
-    "enb-bh": "^1.1.0"
+    "enb-bh": "^1.1.0",
+    "bem-core": "bem/bem-core#v2.9.0",
+    "bem-components": "bem/bem-components#v2.4.0"
   }
 }
