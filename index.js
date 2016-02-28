@@ -24,10 +24,11 @@ module.exports = function (opts) {
 		if (error.syscall !== 'listen') {
 			throw error;
 		}
+		const port = app.get('port');
 
-		var bind = typeof port === 'string'
-			? 'Pipe ' + port
-			: 'Port ' + port;
+		const bind = typeof port === 'string' ?
+			'Pipe ' + port :
+			'Port ' + port;
 
 		// handle specific listen errors with friendly messages
 		switch (error.code) {
@@ -50,9 +51,9 @@ module.exports = function (opts) {
 
 	function onListening() {
 		var addr = server.address();
-		var bind = typeof addr === 'string'
-			? 'pipe ' + addr
-			: 'port ' + addr.port;
+		var bind = typeof addr === 'string' ?
+			'pipe ' + addr :
+			'port ' + addr.port;
 		debug('Listening on ' + bind);
 	}
 };
