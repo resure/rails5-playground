@@ -10,18 +10,22 @@ const cli = meow(`
 
     Options
       -p, --port  Port to use (defaults to 3000)
+	  -d, --debug Debug mode for express
 
     Examples
       $ zireael --port 3030
 `, {
 	alias: {
-		p: 'port'
+		p: 'port',
+		d: 'debug'
 	},
 	default: {
-		port: 3000
+		port: 3000,
+		debug: false
 	}
 });
 
 app({
-	port: cli.flags.port
+	port: cli.flags.port,
+	debug: cli.flags.debug
 });
