@@ -9,15 +9,15 @@
     "email": "inbox@resure.net",
     "url": "zireael.org"
   },
-  "bin": "cli.js",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
     "test": "xo && ava",
-    "start": "./cli.js --debug",
+    "start": "node app.js",
     "setup": "rm -rf node_modules && npm install && npm run make",
-    "make": "./node_modules/.bin/enb make -n"
+    "make": "./node_modules/.bin/enb make -n",
+    "watch": "DEBUG=server nodemon index.js"
   },
   "xo": {
     "ignores": [
@@ -31,8 +31,7 @@
     "config",
     "public",
     "app.js",
-    "index.js",
-    "cli.js"
+    "index.js"
   ],
   "keywords": [
     "automation",
@@ -44,8 +43,8 @@
     "debug": "~2.2.0",
     "express": "~4.13.1",
     "express-handlebars": "^3.0.0",
-    "meow": "^3.7.0",
     "morgan": "1.x.x",
+    "nodemon": "^1.9.1",
     "serve-favicon": "~2.3.0",
     "ym": "^0.1.2"
   },

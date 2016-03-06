@@ -1,0 +1,7 @@
+{
+  "verbose": true,
+  "ignore": ["bundles/*", "public/*", "node_modules", ".idea/*", ".enb/*"],
+  "events": {
+	"restart": "npm run make"
+  }
+}
