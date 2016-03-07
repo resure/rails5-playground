@@ -7,5 +7,6 @@ function requireController(name) {
 }
 
 module.exports = {
-	home: requireController('home')
+	home: requireController('home'),
+	ping: requireController('ping')
 };

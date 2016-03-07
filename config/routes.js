@@ -6,5 +6,6 @@ const path = require('path');
 const ctrl = require(path.join(__dirname, '../app/controllers/'));
 
 router.get('/', ctrl.home);
+router.get('/ping', ctrl.ping);
 
 module.exports = router;
