@@ -1,24 +1,8 @@
-## README
+## Zireael [![Build Status](https://travis-ci.org/resure/zireael.svg?branch=master)](https://travis-ci.org/resure/zireael)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+General purpose automation tool. Currently it's standalone app but it will probably be extracted into mountable engine later.
 
-Things you may want to cover:
 
-* Ruby version
+## License
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+MIT © [Gadzhi Gadzhiev](https://zireael.org)
