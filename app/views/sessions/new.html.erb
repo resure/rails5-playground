@@ -1,3 +1,4 @@
+<% title 'Auth' %>
 <div class="authbox">
   <h1>Log in</h1>
 
@@ -6,7 +7,7 @@
         <%= label_tag :username, nil, class: 'form__label' %>
         <span class="input input_theme_islands input_size_m i-bem" data-bem='{"input":{}}'>
           <span class="input__box">
-            <%= text_field_tag :username, params[:username], class: 'input__control' %>
+            <%= text_field_tag :username, params[:username], class: 'input__control', autofocus: true %>
           </span>
         </span>
       </div>
