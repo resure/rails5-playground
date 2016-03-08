@@ -21,14 +21,6 @@ gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5.x'
 
-# Twitter Bootstrap v4
-gem 'bootstrap', '~> 4.0.0.alpha3'
-
-# Bower deps
-source 'https://rails-assets.org' do
-  gem 'rails-assets-tether', '>= 1.1.0'
-end
-
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # Use Redis adapter to run Action Cable in production
