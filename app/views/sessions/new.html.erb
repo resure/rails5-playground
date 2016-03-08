@@ -1,0 +1,34 @@
+<div class="authbox">
+  <h1>Log in</h1>
+
+  <%= form_tag sessions_path, class: 'form' do %>
+      <div class="form__field">
+        <%= label_tag :username, nil, class: 'form__label' %>
+        <span class="input input_theme_islands input_size_m i-bem" data-bem='{"input":{}}'>
+          <span class="input__box">
+            <%= text_field_tag :username, params[:username], class: 'input__control' %>
+          </span>
+        </span>
+      </div>
+      <div class="form__field">
+        <%= label_tag :password, nil, class: 'form__label' %>
+        <span class="input input_theme_islands input_size_m i-bem" data-bem='{"input":{}}'>
+          <span class="input__box">
+            <%= password_field_tag :password, nil, class: 'input__control' %>
+          </span>
+        </span>
+      </div>
+
+      <div class="form__actions">
+
+        <button
+          class="button button_theme_islands button_size_m button_view_action button__control i-bem"
+          data-bem='{"button":{}}'
+          role="button"
+          type="submit"
+        >
+          <span class="button__text">Sign in</span>
+        </button>
+      </div>
+  <% end %>
+</div>

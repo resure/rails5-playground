@@ -28,6 +28,9 @@ gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+# Minimal authorization through OO design and pure Ruby classesb
+gem 'pundit'
+
 gem 'logster'
 
 # Use Capistrano for deployment

@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :sessions, only: [:create]
+  get 'login' => 'sessions#new', as: 'login'
+  delete 'logout' => 'sessions#destroy', as: 'logout'
+
   get 'home/index'
 
   root to: 'home#index'

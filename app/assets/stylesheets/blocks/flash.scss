@@ -1,0 +1,17 @@
+
+.flash
+{
+    padding: 6px 15px;
+
+    &_type_alert
+    {
+        background: #E64A19;
+        color: #fff;
+    }
+
+    &_type_notice
+    {
+        background: #43A047;
+        color: #fff;
+    }
+}

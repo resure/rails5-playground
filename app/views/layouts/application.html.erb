@@ -9,7 +9,25 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
   </head>
 
-  <body>
+  <body class="page">
+    <% flash.each do |name, msg| %>
+        <%= content_tag :div, msg, class: "flash flash_type_#{name}" %>
+    <% end %>
+
+    <div class="header">
+      <a class="header__brand" href="/">
+        Zireael
+      </a>
+      <div class="header__userland">
+        <% if current_user %>
+          Logged in as <span class="header__username"><%= current_user.username %></span>
+          <%= link_to 'Logout', logout_path, method: :delete, class: 'link link_theme_islands link_size_m header__logout' %>
+        <% else %>
+          <%= link_to 'Sign in', login_path, class: 'link link_theme_islands link_size_m' %>
+        <% end %>
+      </div>
+    </div>
+
     <%= yield %>
   </body>
 </html>
