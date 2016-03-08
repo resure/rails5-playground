@@ -10,6 +10,6 @@ env:
 addons:
   postgresql: "9.4"
 script:
-  - RAILS_ENV=test bundle exec rails --trace db:test:prepare
+  - RAILS_ENV=test bundle exec rails --trace db:migrate db:test:prepare
 before_script:
   - psql -c 'CREATE DATABASE zireael_test' -U postgres
