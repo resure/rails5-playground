@@ -1,4 +1,10 @@
-language: node_js
-node_js:
-  - '4'
-  - '5'
+language: ruby
+sudo: false
+rvm:
+  - 2.3.0
+services:
+  - memcached
+  - redis
+  - rabbitmq
+addons:
+  postgresql: "9.4"
