@@ -1156,7 +1156,7 @@ var bh = new BH();
 bh.setOptions({"jsAttrName":"data-bem","jsAttrScheme":"json"});
 var init = function (global, BH) {
 (function () {
-// begin: ../../libs/bem-core/common.blocks/ua/ua.bh.js
+// begin: ../../libs/bem-core/common.components/ua/ua.bh.js
 
 
     bh.match('ua', function(ctx) {
@@ -1171,10 +1171,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../libs/bem-core/common.blocks/ua/ua.bh.js
+// end: ../../libs/bem-core/common.components/ua/ua.bh.js
 }());
 (function () {
-// begin: ../../libs/bem-core/common.blocks/i-bem/__i18n/i-bem__i18n.bh.js
+// begin: ../../libs/bem-core/common.components/i-bem/__i18n/i-bem__i18n.bh.js
 
     bh.match('i-bem__i18n', function(ctx, json) {
         if(!json) return '';
@@ -1197,10 +1197,10 @@ var init = function (global, BH) {
         return bh.lib.i18n(keyset, key, params);
     });
 
-// end: ../../libs/bem-core/common.blocks/i-bem/__i18n/i-bem__i18n.bh.js
+// end: ../../libs/bem-core/common.components/i-bem/__i18n/i-bem__i18n.bh.js
 }());
 (function () {
-// begin: ../../libs/bem-core/common.blocks/page/page.bh.js
+// begin: ../../libs/bem-core/common.components/page/page.bh.js
 
 
     bh.match('page', function(ctx, json) {
@@ -1263,10 +1263,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../libs/bem-core/common.blocks/page/page.bh.js
+// end: ../../libs/bem-core/common.components/page/page.bh.js
 }());
 (function () {
-// begin: ../../libs/bem-core/common.blocks/page/__css/page__css.bh.js
+// begin: ../../libs/bem-core/common.components/page/__css/page__css.bh.js
 
 
     bh.match('page__css', function(ctx, json) {
@@ -1284,10 +1284,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../libs/bem-core/common.blocks/page/__css/page__css.bh.js
+// end: ../../libs/bem-core/common.components/page/__css/page__css.bh.js
 }());
 (function () {
-// begin: ../../libs/bem-core/desktop.blocks/page/__css/page__css.bh.js
+// begin: ../../libs/bem-core/desktop.components/page/__css/page__css.bh.js
 
 
     bh.match('page__css', function(ctx, json) {
@@ -1314,10 +1314,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../libs/bem-core/desktop.blocks/page/__css/page__css.bh.js
+// end: ../../libs/bem-core/desktop.components/page/__css/page__css.bh.js
 }());
 (function () {
-// begin: ../../libs/bem-core/common.blocks/page/__js/page__js.bh.js
+// begin: ../../libs/bem-core/common.components/page/__js/page__js.bh.js
 
 
     bh.match('page__js', function(ctx, json) {
@@ -1334,10 +1334,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../libs/bem-core/common.blocks/page/__js/page__js.bh.js
+// end: ../../libs/bem-core/common.components/page/__js/page__js.bh.js
 }());
 (function () {
-// begin: ../../libs/bem-core/common.blocks/ua/__svg/ua__svg.bh.js
+// begin: ../../libs/bem-core/common.components/ua/__svg/ua__svg.bh.js
 
 
     bh.match('ua', function(ctx, json) {
@@ -1352,10 +1352,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../libs/bem-core/common.blocks/ua/__svg/ua__svg.bh.js
+// end: ../../libs/bem-core/common.components/ua/__svg/ua__svg.bh.js
 }());
 (function () {
-// begin: ../../libs/bem-core/desktop.blocks/page/__conditional-comment/page__conditional-comment.bh.js
+// begin: ../../libs/bem-core/desktop.components/page/__conditional-comment/page__conditional-comment.bh.js
 
 
     bh.match('page__conditional-comment', function(ctx, json) {
@@ -1380,10 +1380,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../libs/bem-core/desktop.blocks/page/__conditional-comment/page__conditional-comment.bh.js
+// end: ../../libs/bem-core/desktop.components/page/__conditional-comment/page__conditional-comment.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/attach/attach.bh.js
+// begin: ../../common.components/attach/attach.bh.js
 
 
     bh.match('attach', function(ctx, json) {
@@ -1415,10 +1415,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/attach/attach.bh.js
+// end: ../../common.components/attach/attach.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/button/button.bh.js
+// begin: ../../common.components/button/button.bh.js
 
 
     bh.match('button', function(ctx, json) {
@@ -1454,19 +1454,19 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/button/button.bh.js
+// end: ../../common.components/button/button.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/button/__text/button__text.bh.js
+// begin: ../../common.components/button/__text/button__text.bh.js
 
     bh.match('button__text', function(ctx) {
         ctx.tag('span');
     });
 
-// end: ../../common.blocks/button/__text/button__text.bh.js
+// end: ../../common.components/button/__text/button__text.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/button/_focused/button_focused.bh.js
+// begin: ../../common.components/button/_focused/button_focused.bh.js
 
 
     bh.match('button_focused', function(ctx, json) {
@@ -1474,10 +1474,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/button/_focused/button_focused.bh.js
+// end: ../../common.components/button/_focused/button_focused.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/icon/icon.bh.js
+// begin: ../../common.components/icon/icon.bh.js
 
     bh.match('icon', function(ctx, json) {
         var attrs = {},
@@ -1488,10 +1488,10 @@ var init = function (global, BH) {
             .attrs(attrs);
     });
 
-// end: ../../common.blocks/icon/icon.bh.js
+// end: ../../common.components/icon/icon.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/attach/__button/attach__button.bh.js
+// begin: ../../common.components/attach/__button/attach__button.bh.js
 
 
     bh.match('button', function(ctx) {
@@ -1507,10 +1507,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/attach/__button/attach__button.bh.js
+// end: ../../common.components/attach/__button/attach__button.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/attach/__control/attach__control.bh.js
+// begin: ../../common.components/attach/__control/attach__control.bh.js
 
 
     bh.match('attach__control', function(ctx) {
@@ -1531,55 +1531,55 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/attach/__control/attach__control.bh.js
+// end: ../../common.components/attach/__control/attach__control.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/attach/__no-file/attach__no-file.bh.js
+// begin: ../../common.components/attach/__no-file/attach__no-file.bh.js
 
     bh.match('attach__no-file', function(ctx) {
         ctx.tag('span');
     });
 
-// end: ../../common.blocks/attach/__no-file/attach__no-file.bh.js
+// end: ../../common.components/attach/__no-file/attach__no-file.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/attach/__file/attach__file.bh.js
+// begin: ../../common.components/attach/__file/attach__file.bh.js
 
     bh.match('attach__file', function(ctx) {
         ctx.tag('span');
     });
 
-// end: ../../common.blocks/attach/__file/attach__file.bh.js
+// end: ../../common.components/attach/__file/attach__file.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/attach/__text/attach__text.bh.js
+// begin: ../../common.components/attach/__text/attach__text.bh.js
 
     bh.match('attach__text', function(ctx) {
         ctx.tag('span');
     });
 
-// end: ../../common.blocks/attach/__text/attach__text.bh.js
+// end: ../../common.components/attach/__text/attach__text.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/attach/__clear/attach__clear.bh.js
+// begin: ../../common.components/attach/__clear/attach__clear.bh.js
 
     bh.match('attach__clear', function(ctx) {
         ctx.tag('span');
     });
 
-// end: ../../common.blocks/attach/__clear/attach__clear.bh.js
+// end: ../../common.components/attach/__clear/attach__clear.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/button/_togglable/button_togglable.bh.js
+// begin: ../../common.components/button/_togglable/button_togglable.bh.js
 
     bh.match(['button_togglable_check', 'button_togglable_radio'], function(ctx) {
         ctx.attr('aria-pressed', String(!!ctx.mod('checked')));
     });
 
-// end: ../../common.blocks/button/_togglable/button_togglable.bh.js
+// end: ../../common.components/button/_togglable/button_togglable.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/button/_type/button_type_link.bh.js
+// begin: ../../common.components/button/_type/button_type_link.bh.js
 
 
     bh.match('button_type_link', function(ctx, json) {
@@ -1596,10 +1596,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/button/_type/button_type_link.bh.js
+// end: ../../common.components/button/_type/button_type_link.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/checkbox/checkbox.bh.js
+// begin: ../../common.components/checkbox/checkbox.bh.js
 
 
     bh.match('checkbox', function(ctx, json) {
@@ -1624,19 +1624,19 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/checkbox/checkbox.bh.js
+// end: ../../common.components/checkbox/checkbox.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/checkbox/__box/checkbox__box.bh.js
+// begin: ../../common.components/checkbox/__box/checkbox__box.bh.js
 
     bh.match('checkbox__box', function(ctx) {
         ctx.tag('span');
     });
 
-// end: ../../common.blocks/checkbox/__box/checkbox__box.bh.js
+// end: ../../common.components/checkbox/__box/checkbox__box.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/checkbox/__control/checkbox__control.bh.js
+// begin: ../../common.components/checkbox/__control/checkbox__control.bh.js
 
 
     bh.match('checkbox__control', function(ctx, json) {
@@ -1654,10 +1654,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/checkbox/__control/checkbox__control.bh.js
+// end: ../../common.components/checkbox/__control/checkbox__control.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/checkbox/__text/checkbox__text.bh.js
+// begin: ../../common.components/checkbox/__text/checkbox__text.bh.js
 
     bh.match('checkbox__text', function(ctx) {
         ctx
@@ -1665,10 +1665,10 @@ var init = function (global, BH) {
             .attrs({ role : 'presentation' });
     });
 
-// end: ../../common.blocks/checkbox/__text/checkbox__text.bh.js
+// end: ../../common.components/checkbox/__text/checkbox__text.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/checkbox/_type/checkbox_type_button.bh.js
+// begin: ../../common.components/checkbox/_type/checkbox_type_button.bh.js
 
 
     bh.match('checkbox_type_button', function(ctx, json) {
@@ -1706,10 +1706,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/checkbox/_type/checkbox_type_button.bh.js
+// end: ../../common.components/checkbox/_type/checkbox_type_button.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/checkbox-group/checkbox-group.bh.js
+// begin: ../../common.components/checkbox-group/checkbox-group.bh.js
 
 
     bh.match('checkbox-group', function(ctx, json) {
@@ -1748,19 +1748,19 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/checkbox-group/checkbox-group.bh.js
+// end: ../../common.components/checkbox-group/checkbox-group.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/control-group/control-group.bh.js
+// begin: ../../common.components/control-group/control-group.bh.js
 
     bh.match('control-group', function(ctx) {
         ctx.attrs({ role : 'group' });
     });
 
-// end: ../../common.blocks/control-group/control-group.bh.js
+// end: ../../common.components/control-group/control-group.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/dropdown/dropdown.bh.js
+// begin: ../../common.components/dropdown/dropdown.bh.js
 
 
     bh.match({
@@ -1811,10 +1811,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/dropdown/dropdown.bh.js
+// end: ../../common.components/dropdown/dropdown.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/popup/popup.bh.js
+// begin: ../../common.components/popup/popup.bh.js
 
     bh.match('popup', function(ctx, json) {
         ctx
@@ -1828,10 +1828,10 @@ var init = function (global, BH) {
             .attrs({ 'aria-hidden' : 'true' });
     });
 
-// end: ../../common.blocks/popup/popup.bh.js
+// end: ../../common.components/popup/popup.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/dropdown/_switcher/dropdown_switcher_button.bh.js
+// begin: ../../common.components/dropdown/_switcher/dropdown_switcher_button.bh.js
 
 
     bh.match('dropdown_switcher_button__switcher', function(ctx, json) {
@@ -1863,10 +1863,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/dropdown/_switcher/dropdown_switcher_button.bh.js
+// end: ../../common.components/dropdown/_switcher/dropdown_switcher_button.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/dropdown/_switcher/dropdown_switcher_link.bh.js
+// begin: ../../common.components/dropdown/_switcher/dropdown_switcher_link.bh.js
 
 
     bh.match('dropdown_switcher_link__switcher', function(ctx, json) {
@@ -1897,10 +1897,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/dropdown/_switcher/dropdown_switcher_link.bh.js
+// end: ../../common.components/dropdown/_switcher/dropdown_switcher_link.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/link/link.bh.js
+// begin: ../../common.components/link/link.bh.js
 
 
     bh.match('link', function(ctx, json) {
@@ -1936,19 +1936,19 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/link/link.bh.js
+// end: ../../common.components/link/link.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/link/_pseudo/link_pseudo.bh.js
+// begin: ../../common.components/link/_pseudo/link_pseudo.bh.js
 
     bh.match('link_pseudo', function(ctx, json) {
         json.url || ctx.tag('span').attr('role', 'button');
     });
 
-// end: ../../common.blocks/link/_pseudo/link_pseudo.bh.js
+// end: ../../common.components/link/_pseudo/link_pseudo.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/image/image.bh.js
+// begin: ../../common.components/image/image.bh.js
 
     bh.match('image', function(ctx, json) {
         ctx.attr('role', 'img');
@@ -1969,10 +1969,10 @@ var init = function (global, BH) {
         }
     });
 
-// end: ../../common.blocks/image/image.bh.js
+// end: ../../common.components/image/image.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/input/input.bh.js
+// begin: ../../common.components/input/input.bh.js
 
 
     bh.match('input', function(ctx, json) {
@@ -1984,19 +1984,19 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/input/input.bh.js
+// end: ../../common.components/input/input.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/input/__box/input__box.bh.js
+// begin: ../../common.components/input/__box/input__box.bh.js
 
     bh.match('input__box', function(ctx) {
         ctx.tag('span');
     });
 
-// end: ../../common.blocks/input/__box/input__box.bh.js
+// end: ../../common.components/input/__box/input__box.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/input/__control/input__control.bh.js
+// begin: ../../common.components/input/__control/input__control.bh.js
 
 
     bh.match('input__control', function(ctx) {
@@ -2022,46 +2022,46 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/input/__control/input__control.bh.js
+// end: ../../common.components/input/__control/input__control.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/input/_has-clear/input_has-clear.bh.js
+// begin: ../../common.components/input/_has-clear/input_has-clear.bh.js
 
     bh.match('input_has-clear__box', function(ctx) {
         ctx.content([ctx.content(), { elem : 'clear' }], true);
     });
 
-// end: ../../common.blocks/input/_has-clear/input_has-clear.bh.js
+// end: ../../common.components/input/_has-clear/input_has-clear.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/input/__clear/input__clear.bh.js
+// begin: ../../common.components/input/__clear/input__clear.bh.js
 
     bh.match('input__clear', function(ctx) {
         ctx.tag('span');
     });
 
-// end: ../../common.blocks/input/__clear/input__clear.bh.js
+// end: ../../common.components/input/__clear/input__clear.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/input/_type/input_type_password.bh.js
+// begin: ../../common.components/input/_type/input_type_password.bh.js
 
     bh.match('input_type_password__control', function(ctx) {
         ctx.attr('type', 'password');
     });
 
-// end: ../../common.blocks/input/_type/input_type_password.bh.js
+// end: ../../common.components/input/_type/input_type_password.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/input/_type/input_type_search.bh.js
+// begin: ../../common.components/input/_type/input_type_search.bh.js
 
     bh.match('input_type_search__control', function(ctx) {
         ctx.attr('type', 'search');
     });
 
-// end: ../../common.blocks/input/_type/input_type_search.bh.js
+// end: ../../common.components/input/_type/input_type_search.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/menu/menu.bh.js
+// begin: ../../common.components/menu/menu.bh.js
 
 
     bh.match('menu', function(ctx, json) {
@@ -2116,10 +2116,10 @@ var init = function (global, BH) {
             .tParam('checkedItems', checkedItems);
     });
 
-// end: ../../common.blocks/menu/menu.bh.js
+// end: ../../common.components/menu/menu.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/menu-item/menu-item.bh.js
+// begin: ../../common.components/menu-item/menu-item.bh.js
 
     bh.match('menu-item', function(ctx, json) {
         var menuMods = ctx.tParam('menuMods'),
@@ -2143,20 +2143,20 @@ var init = function (global, BH) {
             });
     });
 
-// end: ../../common.blocks/menu-item/menu-item.bh.js
+// end: ../../common.components/menu-item/menu-item.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/menu/_focused/menu_focused.bh.js
+// begin: ../../common.components/menu/_focused/menu_focused.bh.js
 
     bh.match('menu_focused', function(ctx) {
         var js = ctx.extend(ctx.js() || {}, { live : false });
         ctx.js(js);
     });
 
-// end: ../../common.blocks/menu/_focused/menu_focused.bh.js
+// end: ../../common.components/menu/_focused/menu_focused.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/menu/__group/menu__group.bh.js
+// begin: ../../common.components/menu/__group/menu__group.bh.js
 
 
     bh.match('menu__group', function(ctx, json) {
@@ -2183,10 +2183,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/menu/__group/menu__group.bh.js
+// end: ../../common.components/menu/__group/menu__group.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/menu/_mode/menu_mode_radio.bh.js
+// begin: ../../common.components/menu/_mode/menu_mode_radio.bh.js
 
     bh.match('menu_mode_radio', function(ctx) {
         ctx.applyBase();
@@ -2196,10 +2196,10 @@ var init = function (global, BH) {
         }
     });
 
-// end: ../../common.blocks/menu/_mode/menu_mode_radio.bh.js
+// end: ../../common.components/menu/_mode/menu_mode_radio.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/menu-item/_type/menu-item_type_link.bh.js
+// begin: ../../common.components/menu-item/_type/menu-item_type_link.bh.js
 
 
     bh.match('menu-item_type_link', function(ctx) {
@@ -2213,10 +2213,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/menu-item/_type/menu-item_type_link.bh.js
+// end: ../../common.components/menu-item/_type/menu-item_type_link.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/modal/modal.bh.js
+// begin: ../../common.components/modal/modal.bh.js
 
 
     bh.match('modal', function(ctx, json) {
@@ -2244,10 +2244,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/modal/modal.bh.js
+// end: ../../common.components/modal/modal.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/progressbar/progressbar.bh.js
+// begin: ../../common.components/progressbar/progressbar.bh.js
 
 
     bh.match('progressbar', function(ctx, json) {
@@ -2265,10 +2265,10 @@ var init = function (global, BH) {
             });
     });
 
-// end: ../../common.blocks/progressbar/progressbar.bh.js
+// end: ../../common.components/progressbar/progressbar.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/radio/radio.bh.js
+// begin: ../../common.components/radio/radio.bh.js
 
 
     bh.match('radio', function(ctx, json) {
@@ -2294,19 +2294,19 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/radio/radio.bh.js
+// end: ../../common.components/radio/radio.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/radio/__box/radio__box.bh.js
+// begin: ../../common.components/radio/__box/radio__box.bh.js
 
     bh.match('radio__box', function(ctx) {
         ctx.tag('span');
     });
 
-// end: ../../common.blocks/radio/__box/radio__box.bh.js
+// end: ../../common.components/radio/__box/radio__box.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/radio/__control/radio__control.bh.js
+// begin: ../../common.components/radio/__control/radio__control.bh.js
 
 
     bh.match('radio__control', function(ctx, json) {
@@ -2327,10 +2327,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/radio/__control/radio__control.bh.js
+// end: ../../common.components/radio/__control/radio__control.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/radio/__text/radio__text.bh.js
+// begin: ../../common.components/radio/__text/radio__text.bh.js
 
     bh.match('radio__text', function(ctx) {
         ctx
@@ -2338,10 +2338,10 @@ var init = function (global, BH) {
             .attrs({ role : 'presentation' });
     });
 
-// end: ../../common.blocks/radio/__text/radio__text.bh.js
+// end: ../../common.components/radio/__text/radio__text.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/radio/_type/radio_type_button.bh.js
+// begin: ../../common.components/radio/_type/radio_type_button.bh.js
 
 
     bh.match('radio_type_button', function(ctx, json) {
@@ -2376,10 +2376,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/radio/_type/radio_type_button.bh.js
+// end: ../../common.components/radio/_type/radio_type_button.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/radio-group/radio-group.bh.js
+// begin: ../../common.components/radio-group/radio-group.bh.js
 
 
     bh.match('radio-group', function(ctx, json) {
@@ -2416,10 +2416,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/radio-group/radio-group.bh.js
+// end: ../../common.components/radio-group/radio-group.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/radio-group/_mode/radio-group_mode_radio-check.bh.js
+// begin: ../../common.components/radio-group/_mode/radio-group_mode_radio-check.bh.js
 
 
     bh.match('radio-group_mode_radio-check', function(ctx) {
@@ -2428,10 +2428,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/radio-group/_mode/radio-group_mode_radio-check.bh.js
+// end: ../../common.components/radio-group/_mode/radio-group_mode_radio-check.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/select/select.bh.js
+// begin: ../../common.components/select/select.bh.js
 
 
     bh.match('select', function(ctx, json) {
@@ -2488,10 +2488,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/select/select.bh.js
+// end: ../../common.components/select/select.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/select/_focused/select_focused.bh.js
+// begin: ../../common.components/select/_focused/select_focused.bh.js
 
 
     bh.match('select_focused', function(ctx) {
@@ -2501,10 +2501,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/select/_focused/select_focused.bh.js
+// end: ../../common.components/select/_focused/select_focused.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/select/__control/select__control.bh.js
+// begin: ../../common.components/select/__control/select__control.bh.js
 
 
     bh.match('select__control', function(ctx, json) {
@@ -2520,10 +2520,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/select/__control/select__control.bh.js
+// end: ../../common.components/select/__control/select__control.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/select/__button/select__button.bh.js
+// begin: ../../common.components/select/__button/select__button.bh.js
 
 
     bh.match('select__button', function(ctx, json) {
@@ -2567,10 +2567,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/select/__button/select__button.bh.js
+// end: ../../common.components/select/__button/select__button.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/select/__menu/select__menu.bh.js
+// begin: ../../common.components/select/__menu/select__menu.bh.js
 
 
     bh.match('select__menu', function(ctx, json) {
@@ -2622,10 +2622,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/select/__menu/select__menu.bh.js
+// end: ../../common.components/select/__menu/select__menu.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/select/_mode/select_mode_check.bh.js
+// begin: ../../common.components/select/_mode/select_mode_check.bh.js
 
 
     bh.match('select_mode_check', function(ctx, json) {
@@ -2665,10 +2665,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/select/_mode/select_mode_check.bh.js
+// end: ../../common.components/select/_mode/select_mode_check.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/select/_mode/select_mode_radio-check.bh.js
+// begin: ../../common.components/select/_mode/select_mode_radio-check.bh.js
 
 
     bh.match('select_mode_radio-check', function(ctx, json) {
@@ -2699,10 +2699,10 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/select/_mode/select_mode_radio-check.bh.js
+// end: ../../common.components/select/_mode/select_mode_radio-check.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/select/_mode/select_mode_radio.bh.js
+// begin: ../../common.components/select/_mode/select_mode_radio.bh.js
 
 
     bh.match('select_mode_radio', function(ctx) {
@@ -2735,19 +2735,19 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../common.blocks/select/_mode/select_mode_radio.bh.js
+// end: ../../common.components/select/_mode/select_mode_radio.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/spin/spin.bh.js
+// begin: ../../common.components/spin/spin.bh.js
 
     bh.match('spin', function(ctx) {
         ctx.tag('span');
     });
 
-// end: ../../common.blocks/spin/spin.bh.js
+// end: ../../common.components/spin/spin.bh.js
 }());
 (function () {
-// begin: ../../common.blocks/textarea/textarea.bh.js
+// begin: ../../common.components/textarea/textarea.bh.js
 
     bh.match('textarea', function(ctx, json) {
         var attrs = {
@@ -2768,10 +2768,10 @@ var init = function (global, BH) {
             .content(json.val, true);
     });
 
-// end: ../../common.blocks/textarea/textarea.bh.js
+// end: ../../common.components/textarea/textarea.bh.js
 }());
 (function () {
-// begin: ../../design/common.blocks/progressbar/_theme/progressbar_theme_simple.bh.js
+// begin: ../../design/common.components/progressbar/_theme/progressbar_theme_simple.bh.js
 
 
     bh.match('progressbar_theme_simple', function(ctx, json) {
@@ -2792,7 +2792,7 @@ var init = function (global, BH) {
     });
 
 
-// end: ../../design/common.blocks/progressbar/_theme/progressbar_theme_simple.bh.js
+// end: ../../design/common.components/progressbar/_theme/progressbar_theme_simple.bh.js
 }());
 };
 

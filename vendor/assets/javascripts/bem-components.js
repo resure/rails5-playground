@@ -417,7 +417,7 @@ else {
 
 })(typeof window !== 'undefined' ? window : global);
 if(typeof module !== 'undefined') {modules = module.exports;}
-/* ../../libs/bem-core/common.blocks/cookie/cookie.js begin */
+/* ../../libs/bem-core/common.components/cookie/cookie.js begin */
 /**
  * @module cookie
  * @description Inspired from $.cookie plugin by Klaus Hartl (stilbuero.de)
@@ -485,9 +485,9 @@ provide(/** @exports */{
 
 });
 
-/* ../../libs/bem-core/common.blocks/cookie/cookie.js end */
+/* ../../libs/bem-core/common.components/cookie/cookie.js end */
 
-/* ../../libs/bem-core/common.blocks/dom/dom.js begin */
+/* ../../libs/bem-core/common.components/dom/dom.js begin */
 /**
  * @module dom
  * @description some DOM utils
@@ -589,9 +589,9 @@ provide(/** @exports */{
 
 });
 
-/* ../../libs/bem-core/common.blocks/dom/dom.js end */
+/* ../../libs/bem-core/common.components/dom/dom.js end */
 
-/* ../../libs/bem-core/common.blocks/jquery/jquery.js begin */
+/* ../../libs/bem-core/common.components/jquery/jquery.js begin */
 /**
  * @module jquery
  * @description Provide jQuery (load if it does not exist).
@@ -617,9 +617,9 @@ typeof jQuery !== 'undefined'?
     loader(cfg.url, doProvide);
 });
 
-/* ../../libs/bem-core/common.blocks/jquery/jquery.js end */
+/* ../../libs/bem-core/common.components/jquery/jquery.js end */
 
-/* ../../libs/bem-core/common.blocks/loader/_type/loader_type_js.js begin */
+/* ../../libs/bem-core/common.components/loader/_type/loader_type_js.js begin */
 /**
  * @module loader_type_js
  * @description Load JS from external URL.
@@ -696,9 +696,9 @@ provide(
 
 });
 
-/* ../../libs/bem-core/common.blocks/loader/_type/loader_type_js.js end */
+/* ../../libs/bem-core/common.components/loader/_type/loader_type_js.js end */
 
-/* ../../libs/bem-core/common.blocks/jquery/__config/jquery__config.js begin */
+/* ../../libs/bem-core/common.components/jquery/__config/jquery__config.js begin */
 /**
  * @module jquery__config
  * @description Configuration for jQuery
@@ -716,9 +716,9 @@ provide(/** @exports */{
 
 });
 
-/* ../../libs/bem-core/common.blocks/jquery/__config/jquery__config.js end */
+/* ../../libs/bem-core/common.components/jquery/__config/jquery__config.js end */
 
-/* ../../libs/bem-core/desktop.blocks/jquery/__config/jquery__config.js begin */
+/* ../../libs/bem-core/desktop.components/jquery/__config/jquery__config.js begin */
 /**
  * @module jquery__config
  * @description Configuration for jQuery
@@ -740,9 +740,9 @@ provide(
 
 });
 
-/* ../../libs/bem-core/desktop.blocks/jquery/__config/jquery__config.js end */
+/* ../../libs/bem-core/desktop.components/jquery/__config/jquery__config.js end */
 
-/* ../../libs/bem-core/desktop.blocks/ua/ua.js begin */
+/* ../../libs/bem-core/desktop.components/ua/ua.js begin */
 /**
  * @module ua
  * @description Detect some user agent features (works like jQuery.browser in jQuery 1.8)
@@ -783,9 +783,9 @@ provide(browser);
 
 });
 
-/* ../../libs/bem-core/desktop.blocks/ua/ua.js end */
+/* ../../libs/bem-core/desktop.components/ua/ua.js end */
 
-/* ../../libs/bem-core/common.blocks/objects/objects.vanilla.js begin */
+/* ../../libs/bem-core/common.components/objects/objects.vanilla.js begin */
 /**
  * @module objects
  * @description A set of helpers to work with JavaScript objects
@@ -849,9 +849,9 @@ provide(/** @exports */{
 
 });
 
-/* ../../libs/bem-core/common.blocks/objects/objects.vanilla.js end */
+/* ../../libs/bem-core/common.components/objects/objects.vanilla.js end */
 
-/* ../../libs/bem-core/common.blocks/events/events.vanilla.js begin */
+/* ../../libs/bem-core/common.components/events/events.vanilla.js begin */
 /**
  * @module events
  */
@@ -1123,9 +1123,9 @@ provide({
 
 });
 
-/* ../../libs/bem-core/common.blocks/events/events.vanilla.js end */
+/* ../../libs/bem-core/common.components/events/events.vanilla.js end */
 
-/* ../../libs/bem-core/common.blocks/inherit/inherit.vanilla.js begin */
+/* ../../libs/bem-core/common.components/inherit/inherit.vanilla.js begin */
 /**
  * @module inherit
  * @version 2.2.1
@@ -1315,9 +1315,9 @@ defineAsGlobal && (global.inherit = inherit);
 
 })(this);
 
-/* ../../libs/bem-core/common.blocks/inherit/inherit.vanilla.js end */
+/* ../../libs/bem-core/common.components/inherit/inherit.vanilla.js end */
 
-/* ../../libs/bem-core/common.blocks/identify/identify.vanilla.js begin */
+/* ../../libs/bem-core/common.components/identify/identify.vanilla.js begin */
 /**
  * @module identify
  */
@@ -1351,9 +1351,9 @@ provide(
 
 });
 
-/* ../../libs/bem-core/common.blocks/identify/identify.vanilla.js end */
+/* ../../libs/bem-core/common.components/identify/identify.vanilla.js end */
 
-/* ../../libs/bem-core/common.blocks/functions/functions.vanilla.js begin */
+/* ../../libs/bem-core/common.components/functions/functions.vanilla.js begin */
 /**
  * @module functions
  * @description A set of helpers to work with JavaScript functions
@@ -1381,9 +1381,9 @@ provide(/** @exports */{
 
 });
 
-/* ../../libs/bem-core/common.blocks/functions/functions.vanilla.js end */
+/* ../../libs/bem-core/common.components/functions/functions.vanilla.js end */
 
-/* ../../libs/bem-core/common.blocks/events/__channels/events__channels.vanilla.js begin */
+/* ../../libs/bem-core/common.components/events/__channels/events__channels.vanilla.js begin */
 /**
  * @module events__channels
  */
@@ -1421,9 +1421,9 @@ provide(
     });
 });
 
-/* ../../libs/bem-core/common.blocks/events/__channels/events__channels.vanilla.js end */
+/* ../../libs/bem-core/common.components/events/__channels/events__channels.vanilla.js end */
 
-/* ../../libs/bem-core/common.blocks/functions/__debounce/functions__debounce.vanilla.js begin */
+/* ../../libs/bem-core/common.components/functions/__debounce/functions__debounce.vanilla.js begin */
 /**
  * @module functions__debounce
  */
@@ -1465,9 +1465,9 @@ provide(
     });
 });
 
-/* ../../libs/bem-core/common.blocks/functions/__debounce/functions__debounce.vanilla.js end */
+/* ../../libs/bem-core/common.components/functions/__debounce/functions__debounce.vanilla.js end */
 
-/* ../../libs/bem-core/common.blocks/functions/__throttle/functions__throttle.vanilla.js begin */
+/* ../../libs/bem-core/common.components/functions/__throttle/functions__throttle.vanilla.js begin */
 /**
  * @module functions__throttle
  */
@@ -1521,9 +1521,9 @@ provide(
 
 });
 
-/* ../../libs/bem-core/common.blocks/functions/__throttle/functions__throttle.vanilla.js end */
+/* ../../libs/bem-core/common.components/functions/__throttle/functions__throttle.vanilla.js end */
 
-/* ../../libs/bem-core/common.blocks/i-bem/i-bem.vanilla.js begin */
+/* ../../libs/bem-core/common.components/i-bem/i-bem.vanilla.js begin */
 /**
  * @module i-bem
  */
@@ -1664,7 +1664,7 @@ function convertModHandlersToMethods(props) {
 
 /**
  * @class BEM
- * @description Base block for creating BEM blocks
+ * @description Base block for creating BEM components
  * @augments events:Emitter
  * @exports
  */
@@ -2291,9 +2291,9 @@ provide(BEM);
 
 });
 
-/* ../../libs/bem-core/common.blocks/i-bem/i-bem.vanilla.js end */
+/* ../../libs/bem-core/common.components/i-bem/i-bem.vanilla.js end */
 
-/* ../../libs/bem-core/common.blocks/i-bem/__internal/i-bem__internal.vanilla.js begin */
+/* ../../libs/bem-core/common.components/i-bem/__internal/i-bem__internal.vanilla.js begin */
 /**
  * @module i-bem__internal
  */
@@ -2418,9 +2418,9 @@ provide(/** @exports */{
 
 });
 
-/* ../../libs/bem-core/common.blocks/i-bem/__internal/i-bem__internal.vanilla.js end */
+/* ../../libs/bem-core/common.components/i-bem/__internal/i-bem__internal.vanilla.js end */
 
-/* ../../libs/bem-core/common.blocks/next-tick/next-tick.vanilla.js begin */
+/* ../../libs/bem-core/common.components/next-tick/next-tick.vanilla.js begin */
 /**
  * @module next-tick
  */
@@ -2513,9 +2513,9 @@ var global = this.global,
     });
 });
 
-/* ../../libs/bem-core/common.blocks/next-tick/next-tick.vanilla.js end */
+/* ../../libs/bem-core/common.components/next-tick/next-tick.vanilla.js end */
 
-/* ../../libs/bem-core/common.blocks/i-bem/_elem-instances/i-bem_elem-instances.js begin */
+/* ../../libs/bem-core/common.components/i-bem/_elem-instances/i-bem_elem-instances.js begin */
 /**
  * @module i-bem
  */
@@ -2596,9 +2596,9 @@ provide(BEM.decl(null, /** @lends BEM */{
 
 });
 
-/* ../../libs/bem-core/common.blocks/i-bem/_elem-instances/i-bem_elem-instances.js end */
+/* ../../libs/bem-core/common.components/i-bem/_elem-instances/i-bem_elem-instances.js end */
 
-/* ../../libs/bem-core/common.blocks/i-bem/__dom/i-bem__dom.js begin */
+/* ../../libs/bem-core/common.components/i-bem/__dom/i-bem__dom.js begin */
 /**
  * @module i-bem__dom
  */
@@ -2619,7 +2619,7 @@ var undef,
     uniqIdToDomElems = {},
 
     /**
-     * Storage for blocks by unique key
+     * Storage for components by unique key
      * @type Object
      */
     uniqIdToBlock = {},
@@ -2669,7 +2669,7 @@ var undef,
     reverse = Array.prototype.reverse;
 
 /**
- * Initializes blocks on a DOM element
+ * Initializes components on a DOM element
  * @param {jQuery} domElem DOM element
  * @param {String} uniqInitId ID of the "initialization wave"
  */
@@ -2881,7 +2881,7 @@ DOM = BEM.decl('i-bem__dom',/** @lends BEMDOM.prototype */{
     },
 
     /**
-     * Finds blocks inside the current block or its elements (including context)
+     * Finds components inside the current block or its elements (including context)
      * @param {String|jQuery} [elem] Block element
      * @param {String|Object} block Name or description (block,modName,modVal) of the block to find
      * @returns {BEMDOM[]}
@@ -2901,7 +2901,7 @@ DOM = BEM.decl('i-bem__dom',/** @lends BEMDOM.prototype */{
     },
 
     /**
-     * Finds blocks outside the current block or its elements (including context)
+     * Finds components outside the current block or its elements (including context)
      * @param {String|jQuery} [elem] Block element
      * @param {String|Object} block Name or description (block,modName,modVal) of the block to find
      * @returns {BEMDOM[]}
@@ -2921,7 +2921,7 @@ DOM = BEM.decl('i-bem__dom',/** @lends BEMDOM.prototype */{
     },
 
     /**
-     * Finds blocks on DOM elements of the current block or its elements
+     * Finds components on DOM elements of the current block or its elements
      * @param {String|jQuery} [elem] Block element
      * @param {String|Object} block Name or description (block,modName,modVal) of the block to find
      * @returns {BEMDOM[]}
@@ -3566,7 +3566,7 @@ DOM = BEM.decl('i-bem__dom',/** @lends BEMDOM.prototype */{
     },
 
     /**
-     * Initializes blocks on a fragment of the DOM tree
+     * Initializes components on a fragment of the DOM tree
      * @param {jQuery|String} [ctx=scope] Root DOM node
      * @returns {jQuery} ctx Initialization context
      */
@@ -3616,7 +3616,7 @@ DOM = BEM.decl('i-bem__dom',/** @lends BEMDOM.prototype */{
     },
 
     /**
-     * Destroys blocks on a fragment of the DOM tree
+     * Destroys components on a fragment of the DOM tree
      * @param {jQuery} ctx Root DOM node
      * @param {Boolean} [excludeSelf=false] Exclude the main domElem
      */
@@ -3625,7 +3625,7 @@ DOM = BEM.decl('i-bem__dom',/** @lends BEMDOM.prototype */{
     },
 
     /**
-     * Detaches blocks on a fragment of the DOM tree without destructing DOM tree
+     * Detaches components on a fragment of the DOM tree without destructing DOM tree
      * @param {jQuery} ctx Root DOM node
      * @param {Boolean} [excludeSelf=false] Exclude the main domElem
      */
@@ -3634,7 +3634,7 @@ DOM = BEM.decl('i-bem__dom',/** @lends BEMDOM.prototype */{
     },
 
     /**
-     * Replaces a fragment of the DOM tree inside the context, destroying old blocks and intializing new ones
+     * Replaces a fragment of the DOM tree inside the context, destroying old components and intializing new ones
      * @param {jQuery} ctx Root DOM node
      * @param {jQuery|String} content New content
      * @returns {jQuery} Updated root DOM node
@@ -3645,7 +3645,7 @@ DOM = BEM.decl('i-bem__dom',/** @lends BEMDOM.prototype */{
     },
 
     /**
-     * Changes a fragment of the DOM tree including the context and initializes blocks.
+     * Changes a fragment of the DOM tree including the context and initializes components.
      * @param {jQuery} ctx Root DOM node
      * @param {jQuery|String} content Content to be added
      * @returns {jQuery} New content
@@ -3664,7 +3664,7 @@ DOM = BEM.decl('i-bem__dom',/** @lends BEMDOM.prototype */{
     },
 
     /**
-     * Adds a fragment of the DOM tree at the end of the context and initializes blocks
+     * Adds a fragment of the DOM tree at the end of the context and initializes components
      * @param {jQuery} ctx Root DOM node
      * @param {jQuery|String} content Content to be added
      * @returns {jQuery} New content
@@ -3674,7 +3674,7 @@ DOM = BEM.decl('i-bem__dom',/** @lends BEMDOM.prototype */{
     },
 
     /**
-     * Adds a fragment of the DOM tree at the beginning of the context and initializes blocks
+     * Adds a fragment of the DOM tree at the beginning of the context and initializes components
      * @param {jQuery} ctx Root DOM node
      * @param {jQuery|String} content Content to be added
      * @returns {jQuery} New content
@@ -3684,7 +3684,7 @@ DOM = BEM.decl('i-bem__dom',/** @lends BEMDOM.prototype */{
     },
 
     /**
-     * Adds a fragment of the DOM tree before the context and initializes blocks
+     * Adds a fragment of the DOM tree before the context and initializes components
      * @param {jQuery} ctx Contextual DOM node
      * @param {jQuery|String} content Content to be added
      * @returns {jQuery} New content
@@ -3694,7 +3694,7 @@ DOM = BEM.decl('i-bem__dom',/** @lends BEMDOM.prototype */{
     },
 
     /**
-     * Adds a fragment of the DOM tree after the context and initializes blocks
+     * Adds a fragment of the DOM tree after the context and initializes components
      * @param {jQuery} ctx Contextual DOM node
      * @param {jQuery|String} content Content to be added
      * @returns {jQuery} New content
@@ -4145,9 +4145,9 @@ modules.define = function(name, deps, decl) {
 
 })();
 
-/* ../../libs/bem-core/common.blocks/i-bem/__dom/i-bem__dom.js end */
+/* ../../libs/bem-core/common.components/i-bem/__dom/i-bem__dom.js end */
 
-/* ../../libs/bem-core/common.blocks/i-bem/__dom/_init/i-bem__dom_init.js begin */
+/* ../../libs/bem-core/common.components/i-bem/__dom/_init/i-bem__dom_init.js begin */
 /**
  * @module i-bem__dom_init
  */
@@ -4166,9 +4166,9 @@ provide(
     });
 });
 
-/* ../../libs/bem-core/common.blocks/i-bem/__dom/_init/i-bem__dom_init.js end */
+/* ../../libs/bem-core/common.components/i-bem/__dom/_init/i-bem__dom_init.js end */
 
-/* ../../libs/bem-core/common.blocks/i-bem/__collection/i-bem__collection.js begin */
+/* ../../libs/bem-core/common.components/i-bem/__collection/i-bem__collection.js begin */
 /**
  * @module i-bem__collection
  */
@@ -4247,9 +4247,9 @@ provide(inherit(null, /** @lends BEMCollection */{
 
 });
 
-/* ../../libs/bem-core/common.blocks/i-bem/__collection/i-bem__collection.js end */
+/* ../../libs/bem-core/common.components/i-bem/__collection/i-bem__collection.js end */
 
-/* ../../libs/bem-core/common.blocks/i-bem/__collection/_type/i-bem__collection_type_dom.js begin */
+/* ../../libs/bem-core/common.components/i-bem/__collection/_type/i-bem__collection_type_dom.js begin */
 /**
  * @module i-bem__collection_type_dom
  */
@@ -4281,9 +4281,9 @@ provide(inherit(Collection, null, /** @lends BEMDOMCollection */{
 
 });
 
-/* ../../libs/bem-core/common.blocks/i-bem/__collection/_type/i-bem__collection_type_dom.js end */
+/* ../../libs/bem-core/common.components/i-bem/__collection/_type/i-bem__collection_type_dom.js end */
 
-/* ../../libs/bem-core/common.blocks/i-bem/__dom/_collection/i-bem__dom_collection_yes.js begin */
+/* ../../libs/bem-core/common.components/i-bem/__dom/_collection/i-bem__dom_collection_yes.js begin */
 /**
  * @module i-bem__dom
  * @description Overrides BEM.DOM.findBlocks* methods that they return i-bem__collection_type_dom
@@ -4314,9 +4314,9 @@ provide(
 
 });
 
-/* ../../libs/bem-core/common.blocks/i-bem/__dom/_collection/i-bem__dom_collection_yes.js end */
+/* ../../libs/bem-core/common.components/i-bem/__dom/_collection/i-bem__dom_collection_yes.js end */
 
-/* ../../libs/bem-core/common.blocks/i-bem/__dom/_elem-instances/i-bem__dom_elem-instances.js begin */
+/* ../../libs/bem-core/common.components/i-bem/__dom/_elem-instances/i-bem__dom_elem-instances.js begin */
 /**
  * @module i-bem__dom
  */
@@ -4638,9 +4638,9 @@ provide(BEMDOM.decl(/** @lends BEMDOM.prototype */{
 
 });
 
-/* ../../libs/bem-core/common.blocks/i-bem/__dom/_elem-instances/i-bem__dom_elem-instances.js end */
+/* ../../libs/bem-core/common.components/i-bem/__dom/_elem-instances/i-bem__dom_elem-instances.js end */
 
-/* ../../libs/bem-core/common.blocks/i-bem/__dom/_init/i-bem__dom_init_auto.js begin */
+/* ../../libs/bem-core/common.components/i-bem/__dom/_init/i-bem__dom_init_auto.js begin */
 /**
  * Auto initialization on DOM ready
  */
@@ -4655,9 +4655,9 @@ $(function() {
 
 });
 
-/* ../../libs/bem-core/common.blocks/i-bem/__dom/_init/i-bem__dom_init_auto.js end */
+/* ../../libs/bem-core/common.components/i-bem/__dom/_init/i-bem__dom_init_auto.js end */
 
-/* ../../libs/bem-core/common.blocks/idle/idle.js begin */
+/* ../../libs/bem-core/common.components/idle/idle.js begin */
 /**
  * @module idle
  */
@@ -4748,9 +4748,9 @@ provide(
 
 });
 
-/* ../../libs/bem-core/common.blocks/idle/idle.js end */
+/* ../../libs/bem-core/common.components/idle/idle.js end */
 
-/* ../../libs/bem-core/common.blocks/idle/_start/idle_start_auto.js begin */
+/* ../../libs/bem-core/common.components/idle/_start/idle_start_auto.js begin */
 /**
  * Automatically starts idle module
  */
@@ -4761,9 +4761,9 @@ idle.start();
 
 });
 
-/* ../../libs/bem-core/common.blocks/idle/_start/idle_start_auto.js end */
+/* ../../libs/bem-core/common.components/idle/_start/idle_start_auto.js end */
 
-/* ../../libs/bem-core/common.blocks/jquery/__event/_type/jquery__event_type_pointerclick.js begin */
+/* ../../libs/bem-core/common.components/jquery/__event/_type/jquery__event_type_pointerclick.js begin */
 /**
  * FastClick to jQuery module wrapper.
  * @see https://github.com/ftlabs/fastclick
@@ -5557,9 +5557,9 @@ $(function() {
 
 });
 
-/* ../../libs/bem-core/common.blocks/jquery/__event/_type/jquery__event_type_pointerclick.js end */
+/* ../../libs/bem-core/common.components/jquery/__event/_type/jquery__event_type_pointerclick.js end */
 
-/* ../../libs/bem-core/common.blocks/jquery/__event/_type/jquery__event_type_pointernative.js begin */
+/* ../../libs/bem-core/common.components/jquery/__event/_type/jquery__event_type_pointernative.js begin */
 ;(function(global, factory) {
 
 if(typeof modules === 'object' && modules.isDefined('jquery')) {
@@ -6406,9 +6406,9 @@ dispatcher.register(doc);
 
 }));
 
-/* ../../libs/bem-core/common.blocks/jquery/__event/_type/jquery__event_type_pointernative.js end */
+/* ../../libs/bem-core/common.components/jquery/__event/_type/jquery__event_type_pointernative.js end */
 
-/* ../../libs/bem-core/common.blocks/jquery/__event/_type/jquery__event_type_pointerpressrelease.js begin */
+/* ../../libs/bem-core/common.components/jquery/__event/_type/jquery__event_type_pointerpressrelease.js begin */
 modules.define('jquery', function(provide, $) {
 
 $.each({
@@ -6443,9 +6443,9 @@ provide($);
 
 });
 
-/* ../../libs/bem-core/common.blocks/jquery/__event/_type/jquery__event_type_pointerpressrelease.js end */
+/* ../../libs/bem-core/common.components/jquery/__event/_type/jquery__event_type_pointerpressrelease.js end */
 
-/* ../../libs/bem-core/common.blocks/keyboard/__codes/keyboard__codes.js begin */
+/* ../../libs/bem-core/common.components/keyboard/__codes/keyboard__codes.js begin */
 /**
  * @module keyboard__codes
  */
@@ -6488,9 +6488,9 @@ provide(/** @exports */{
 
 });
 
-/* ../../libs/bem-core/common.blocks/keyboard/__codes/keyboard__codes.js end */
+/* ../../libs/bem-core/common.components/keyboard/__codes/keyboard__codes.js end */
 
-/* ../../libs/bem-core/common.blocks/loader/_type/loader_type_bundle.js begin */
+/* ../../libs/bem-core/common.components/loader/_type/loader_type_bundle.js begin */
 /**
  * @module loader_type_bundle
  * @description Load BEM bundle (JS+CSS) from external URL.
@@ -6609,9 +6609,9 @@ provide(load);
 
 });
 
-/* ../../libs/bem-core/common.blocks/loader/_type/loader_type_bundle.js end */
+/* ../../libs/bem-core/common.components/loader/_type/loader_type_bundle.js end */
 
-/* ../../libs/bem-core/common.blocks/querystring/querystring.vanilla.js begin */
+/* ../../libs/bem-core/common.components/querystring/querystring.vanilla.js begin */
 /**
  * @module querystring
  * @description A set of helpers to work with query strings
@@ -6692,9 +6692,9 @@ provide(/** @exports */{
 
 });
 
-/* ../../libs/bem-core/common.blocks/querystring/querystring.vanilla.js end */
+/* ../../libs/bem-core/common.components/querystring/querystring.vanilla.js end */
 
-/* ../../libs/bem-core/common.blocks/querystring/__uri/querystring__uri.vanilla.js begin */
+/* ../../libs/bem-core/common.components/querystring/__uri/querystring__uri.vanilla.js begin */
 /**
  * @module querystring__uri
  * @description A set of helpers to work with URI
@@ -6755,9 +6755,9 @@ provide(/** @exports */{
 
 });
 
-/* ../../libs/bem-core/common.blocks/querystring/__uri/querystring__uri.vanilla.js end */
+/* ../../libs/bem-core/common.components/querystring/__uri/querystring__uri.vanilla.js end */
 
-/* ../../libs/bem-core/common.blocks/strings/__escape/strings__escape.vanilla.js begin */
+/* ../../libs/bem-core/common.components/strings/__escape/strings__escape.vanilla.js begin */
 /**
  * @module strings__escape
  * @description A set of string escaping functions
@@ -6810,9 +6810,9 @@ provide(/** @exports */{
 
 });
 
-/* ../../libs/bem-core/common.blocks/strings/__escape/strings__escape.vanilla.js end */
+/* ../../libs/bem-core/common.components/strings/__escape/strings__escape.vanilla.js end */
 
-/* ../../libs/bem-core/common.blocks/tick/tick.vanilla.js begin */
+/* ../../libs/bem-core/common.components/tick/tick.vanilla.js begin */
 /**
  * @module tick
  * @description Helpers for polling anything
@@ -6881,9 +6881,9 @@ provide(
 
 });
 
-/* ../../libs/bem-core/common.blocks/tick/tick.vanilla.js end */
+/* ../../libs/bem-core/common.components/tick/tick.vanilla.js end */
 
-/* ../../libs/bem-core/common.blocks/tick/_start/tick_start_auto.vanilla.js begin */
+/* ../../libs/bem-core/common.components/tick/_start/tick_start_auto.vanilla.js begin */
 /**
  * Automatically starts tick module
  */
@@ -6894,9 +6894,9 @@ tick.start();
 
 });
 
-/* ../../libs/bem-core/common.blocks/tick/_start/tick_start_auto.vanilla.js end */
+/* ../../libs/bem-core/common.components/tick/_start/tick_start_auto.vanilla.js end */
 
-/* ../../libs/bem-core/common.blocks/vow/vow.vanilla.js begin */
+/* ../../libs/bem-core/common.components/vow/vow.vanilla.js begin */
 /**
  * @module vow
  * @author Filatov Dmitry <dfilatov@yandex-team.ru>
@@ -8226,9 +8226,9 @@ defineAsGlobal && (global.vow = vow);
 
 })(this);
 
-/* ../../libs/bem-core/common.blocks/vow/vow.vanilla.js end */
+/* ../../libs/bem-core/common.components/vow/vow.vanilla.js end */
 
-/* ../../libs/bem-core/desktop.blocks/jquery/__event/_type/jquery__event_type_winresize.js begin */
+/* ../../libs/bem-core/desktop.components/jquery/__event/_type/jquery__event_type_winresize.js begin */
 /**
  * @module jquery
  */
@@ -8261,9 +8261,9 @@ provide($);
 
 });
 
-/* ../../libs/bem-core/desktop.blocks/jquery/__event/_type/jquery__event_type_winresize.js end */
+/* ../../libs/bem-core/desktop.components/jquery/__event/_type/jquery__event_type_winresize.js end */
 
-/* ../../common.blocks/attach/attach.js begin */
+/* ../../common.components/attach/attach.js begin */
 /**
  * @module attach
  */
@@ -8375,9 +8375,9 @@ function extractFileNameFromPath(path) {
 
 });
 
-/* ../../common.blocks/attach/attach.js end */
+/* ../../common.components/attach/attach.js end */
 
-/* ../../common.blocks/control/control.js begin */
+/* ../../common.components/control/control.js begin */
 /**
  * @module control
  */
@@ -8504,9 +8504,9 @@ provide(BEMDOM.decl(this.name, /** @lends control.prototype */{
 
 });
 
-/* ../../common.blocks/control/control.js end */
+/* ../../common.components/control/control.js end */
 
-/* ../../desktop.blocks/control/control.js begin */
+/* ../../desktop.components/control/control.js begin */
 /** @module control */
 
 modules.define(
@@ -8558,9 +8558,9 @@ provide(Control.decl({
 
 });
 
-/* ../../desktop.blocks/control/control.js end */
+/* ../../desktop.components/control/control.js end */
 
-/* ../../common.blocks/button/button.js begin */
+/* ../../common.components/button/button.js begin */
 /**
  * @module button
  */
@@ -8726,9 +8726,9 @@ provide(BEMDOM.decl({ block : this.name, baseBlock : Control }, /** @lends butto
 
 });
 
-/* ../../common.blocks/button/button.js end */
+/* ../../common.components/button/button.js end */
 
-/* ../../common.blocks/button/_togglable/button_togglable.js begin */
+/* ../../common.components/button/_togglable/button_togglable.js begin */
 /**
  * @module button
  */
@@ -8751,9 +8751,9 @@ provide(Button.decl({ modName : 'togglable' }, /** @lends button.prototype */{
 
 });
 
-/* ../../common.blocks/button/_togglable/button_togglable.js end */
+/* ../../common.components/button/_togglable/button_togglable.js end */
 
-/* ../../common.blocks/button/_type/button_type_link.js begin */
+/* ../../common.components/button/_type/button_type_link.js begin */
 /**
  * @module button
  */
@@ -8819,9 +8819,9 @@ provide(Button.decl({ modName : 'type', modVal : 'link' }, /** @lends button.pro
 
 });
 
-/* ../../common.blocks/button/_type/button_type_link.js end */
+/* ../../common.components/button/_type/button_type_link.js end */
 
-/* ../../common.blocks/checkbox/checkbox.js begin */
+/* ../../common.components/checkbox/checkbox.js begin */
 /**
  * @module checkbox
  */
@@ -8858,9 +8858,9 @@ provide(BEMDOM.decl({ block : this.name, baseBlock : Control }, /** @lends check
 
 });
 
-/* ../../common.blocks/checkbox/checkbox.js end */
+/* ../../common.components/checkbox/checkbox.js end */
 
-/* ../../common.blocks/checkbox/_type/checkbox_type_button.js begin */
+/* ../../common.components/checkbox/_type/checkbox_type_button.js begin */
 /**
  * @module checkbox
  */
@@ -8918,9 +8918,9 @@ function proxyModFromButton(_, data) {
 
 });
 
-/* ../../common.blocks/checkbox/_type/checkbox_type_button.js end */
+/* ../../common.components/checkbox/_type/checkbox_type_button.js end */
 
-/* ../../common.blocks/checkbox-group/checkbox-group.js begin */
+/* ../../common.components/checkbox-group/checkbox-group.js begin */
 /**
  * @module checkbox-group
  */
@@ -9085,9 +9085,9 @@ provide(BEMDOM.decl(this.name, /** @lends checkbox-group.prototype */{
 
 });
 
-/* ../../common.blocks/checkbox-group/checkbox-group.js end */
+/* ../../common.components/checkbox-group/checkbox-group.js end */
 
-/* ../../common.blocks/dropdown/dropdown.js begin */
+/* ../../common.components/dropdown/dropdown.js begin */
 /**
  * @module dropdown
  */
@@ -9176,9 +9176,9 @@ provide(BEMDOM.decl(this.name, /** @lends dropdown.prototype */{
 
 });
 
-/* ../../common.blocks/dropdown/dropdown.js end */
+/* ../../common.components/dropdown/dropdown.js end */
 
-/* ../../common.blocks/popup/popup.js begin */
+/* ../../common.components/popup/popup.js begin */
 /**
  * @module popup
  */
@@ -9326,9 +9326,9 @@ provide(BEMDOM.decl(this.name, /** @lends popup.prototype */{
 
 });
 
-/* ../../common.blocks/popup/popup.js end */
+/* ../../common.components/popup/popup.js end */
 
-/* ../../common.blocks/popup/_autoclosable/popup_autoclosable.js begin */
+/* ../../common.components/popup/_autoclosable/popup_autoclosable.js begin */
 /**
  * @module popup
  */
@@ -9392,9 +9392,9 @@ function onDocKeyPress(e) {
 
 });
 
-/* ../../common.blocks/popup/_autoclosable/popup_autoclosable.js end */
+/* ../../common.components/popup/_autoclosable/popup_autoclosable.js end */
 
-/* ../../common.blocks/popup/_target/popup_target.js begin */
+/* ../../common.components/popup/_target/popup_target.js begin */
 /**
  * @module popup
  */
@@ -9701,9 +9701,9 @@ provide(Popup.decl({ modName : 'target' }, /** @lends popup.prototype */{
 
 });
 
-/* ../../common.blocks/popup/_target/popup_target.js end */
+/* ../../common.components/popup/_target/popup_target.js end */
 
-/* ../../common.blocks/popup/_target/popup_target_anchor.js begin */
+/* ../../common.components/popup/_target/popup_target_anchor.js begin */
 /**
  * @module popup
  */
@@ -9965,9 +9965,9 @@ provide(Popup.decl({ modName : 'target', modVal : 'anchor' }, /** @lends popup.p
 
 });
 
-/* ../../common.blocks/popup/_target/popup_target_anchor.js end */
+/* ../../common.components/popup/_target/popup_target_anchor.js end */
 
-/* ../../common.blocks/dropdown/_switcher/dropdown_switcher_button.js begin */
+/* ../../common.components/dropdown/_switcher/dropdown_switcher_button.js begin */
 /**
  * @module dropdown
  */
@@ -9996,9 +9996,9 @@ provide(Dropdown.decl({ modName : 'switcher', modVal : 'button' }, /** @lends dr
 
 });
 
-/* ../../common.blocks/dropdown/_switcher/dropdown_switcher_button.js end */
+/* ../../common.components/dropdown/_switcher/dropdown_switcher_button.js end */
 
-/* ../../common.blocks/dropdown/_switcher/dropdown_switcher_link.js begin */
+/* ../../common.components/dropdown/_switcher/dropdown_switcher_link.js begin */
 /**
  * @module dropdown
  */
@@ -10019,9 +10019,9 @@ provide(Dropdown.decl({ modName : 'switcher', modVal : 'link' }, null, /** @lend
 
 });
 
-/* ../../common.blocks/dropdown/_switcher/dropdown_switcher_link.js end */
+/* ../../common.components/dropdown/_switcher/dropdown_switcher_link.js end */
 
-/* ../../common.blocks/link/link.js begin */
+/* ../../common.components/link/link.js begin */
 /**
  * @module link
  */
@@ -10101,9 +10101,9 @@ provide(BEMDOM.decl({ block : this.name, baseBlock : Control }, /** @lends link.
 
 });
 
-/* ../../common.blocks/link/link.js end */
+/* ../../common.components/link/link.js end */
 
-/* ../../common.blocks/link/_pseudo/link_pseudo.js begin */
+/* ../../common.components/link/_pseudo/link_pseudo.js begin */
 /**
  * @module link
  */
@@ -10144,9 +10144,9 @@ provide(Link.decl({ modName : 'pseudo', modVal : true }, /** @lends link.prototy
 
 });
 
-/* ../../common.blocks/link/_pseudo/link_pseudo.js end */
+/* ../../common.components/link/_pseudo/link_pseudo.js end */
 
-/* ../../common.blocks/input/input.js begin */
+/* ../../common.components/input/input.js begin */
 /**
  * @module input
  */
@@ -10207,9 +10207,9 @@ provide(BEMDOM.decl({ block : this.name, baseBlock : Control }, /** @lends input
 
 });
 
-/* ../../common.blocks/input/input.js end */
+/* ../../common.components/input/input.js end */
 
-/* ../../desktop.blocks/input/input.js begin */
+/* ../../desktop.components/input/input.js begin */
 /**
  * @module input
  */
@@ -10289,9 +10289,9 @@ provide(Input.decl(/** @lends input.prototype */{
 
 });
 
-/* ../../desktop.blocks/input/input.js end */
+/* ../../desktop.components/input/input.js end */
 
-/* ../../common.blocks/input/_has-clear/input_has-clear.js begin */
+/* ../../common.components/input/_has-clear/input_has-clear.js begin */
 /**
  * @module input
  */
@@ -10337,9 +10337,9 @@ provide(Input.decl({ modName : 'has-clear', modVal : true }, /** @lends input.pr
 
 });
 
-/* ../../common.blocks/input/_has-clear/input_has-clear.js end */
+/* ../../common.components/input/_has-clear/input_has-clear.js end */
 
-/* ../../desktop.blocks/input/_has-clear/input_has-clear.js begin */
+/* ../../desktop.components/input/_has-clear/input_has-clear.js begin */
 modules.define('input', function(provide, Input) {
 
 provide(Input.decl({ modName : 'has-clear', modVal : true }, {
@@ -10358,9 +10358,9 @@ provide(Input.decl({ modName : 'has-clear', modVal : true }, {
 
 });
 
-/* ../../desktop.blocks/input/_has-clear/input_has-clear.js end */
+/* ../../desktop.components/input/_has-clear/input_has-clear.js end */
 
-/* ../../common.blocks/menu/menu.js begin */
+/* ../../common.components/menu/menu.js begin */
 /**
  * @module menu
  */
@@ -10611,9 +10611,9 @@ provide(BEMDOM.decl({ block : this.name, baseBlock : Control }, /** @lends menu.
 
 });
 
-/* ../../common.blocks/menu/menu.js end */
+/* ../../common.components/menu/menu.js end */
 
-/* ../../common.blocks/menu-item/menu-item.js begin */
+/* ../../common.components/menu-item/menu-item.js begin */
 /**
  * @module menu-item
  */
@@ -10709,9 +10709,9 @@ provide(BEMDOM.decl(this.name, /** @lends menu-item.prototype */{
 
 });
 
-/* ../../common.blocks/menu-item/menu-item.js end */
+/* ../../common.components/menu-item/menu-item.js end */
 
-/* ../../common.blocks/menu/_mode/menu_mode.js begin */
+/* ../../common.components/menu/_mode/menu_mode.js begin */
 /**
  * @module menu
  */
@@ -10818,9 +10818,9 @@ provide(Menu.decl({ modName : 'mode' }, /** @lends menu.prototype */{
 
 });
 
-/* ../../common.blocks/menu/_mode/menu_mode.js end */
+/* ../../common.components/menu/_mode/menu_mode.js end */
 
-/* ../../common.blocks/menu/_mode/menu_mode_check.js begin */
+/* ../../common.components/menu/_mode/menu_mode_check.js begin */
 /**
  * @module menu
  */
@@ -10887,9 +10887,9 @@ provide(Menu.decl({ modName : 'mode', modVal : 'check' }, /** @lends menu.protot
 
 });
 
-/* ../../common.blocks/menu/_mode/menu_mode_check.js end */
+/* ../../common.components/menu/_mode/menu_mode_check.js end */
 
-/* ../../common.blocks/menu/_mode/menu_mode_radio-check.js begin */
+/* ../../common.components/menu/_mode/menu_mode_radio-check.js begin */
 /**
  * @module menu
  */
@@ -10957,9 +10957,9 @@ provide(Menu.decl({ modName : 'mode', modVal : 'radio-check' }, /** @lends menu.
 
 });
 
-/* ../../common.blocks/menu/_mode/menu_mode_radio-check.js end */
+/* ../../common.components/menu/_mode/menu_mode_radio-check.js end */
 
-/* ../../common.blocks/menu/_mode/menu_mode_radio.js begin */
+/* ../../common.components/menu/_mode/menu_mode_radio.js begin */
 /**
  * @module menu
  */
@@ -11029,9 +11029,9 @@ provide(Menu.decl({ modName : 'mode', modVal : 'radio' }, /** @lends menu.protot
 
 });
 
-/* ../../common.blocks/menu/_mode/menu_mode_radio.js end */
+/* ../../common.components/menu/_mode/menu_mode_radio.js end */
 
-/* ../../common.blocks/menu-item/_type/menu-item_type_link.js begin */
+/* ../../common.components/menu-item/_type/menu-item_type_link.js begin */
 /**
  * @module menu-item
  */
@@ -11083,9 +11083,9 @@ provide(MenuItem.decl({ modName : 'type', modVal : 'link' }, /** @lends menu-ite
 
 });
 
-/* ../../common.blocks/menu-item/_type/menu-item_type_link.js end */
+/* ../../common.components/menu-item/_type/menu-item_type_link.js end */
 
-/* ../../common.blocks/modal/modal.js begin */
+/* ../../common.components/modal/modal.js begin */
 /**
  * @module modal
  */
@@ -11134,9 +11134,9 @@ provide(BEMDOM.decl(this.name, /** @lends modal.prototype */{
 
 });
 
-/* ../../common.blocks/modal/modal.js end */
+/* ../../common.components/modal/modal.js end */
 
-/* ../../common.blocks/modal/_autoclosable/modal_autoclosable.js begin */
+/* ../../common.components/modal/_autoclosable/modal_autoclosable.js begin */
 /**
  * @module modal
  */
@@ -11183,9 +11183,9 @@ provide(Modal.decl({ modName : 'autoclosable', modVal : true }, /** @lends modal
 
 });
 
-/* ../../common.blocks/modal/_autoclosable/modal_autoclosable.js end */
+/* ../../common.components/modal/_autoclosable/modal_autoclosable.js end */
 
-/* ../../common.blocks/popup/_target/popup_target_position.js begin */
+/* ../../common.components/popup/_target/popup_target_position.js begin */
 /**
  * @module popup
  */
@@ -11246,9 +11246,9 @@ provide(Popup.decl({ modName : 'target', modVal : 'position' }, /** @lends popup
 
 });
 
-/* ../../common.blocks/popup/_target/popup_target_position.js end */
+/* ../../common.components/popup/_target/popup_target_position.js end */
 
-/* ../../common.blocks/progressbar/progressbar.js begin */
+/* ../../common.components/progressbar/progressbar.js begin */
 /**
  * @module progressbar
  */
@@ -11294,9 +11294,9 @@ provide(BEMDOM.decl(this.name, /** @lends progressbar.prototype */{
 
 });
 
-/* ../../common.blocks/progressbar/progressbar.js end */
+/* ../../common.components/progressbar/progressbar.js end */
 
-/* ../../common.blocks/radio/radio.js begin */
+/* ../../common.components/radio/radio.js begin */
 /**
  * @module radio
  */
@@ -11336,9 +11336,9 @@ provide(BEMDOM.decl({ block : this.name, baseBlock : Control }, /** @lends radio
 
 });
 
-/* ../../common.blocks/radio/radio.js end */
+/* ../../common.components/radio/radio.js end */
 
-/* ../../common.blocks/radio/_type/radio_type_button.js begin */
+/* ../../common.components/radio/_type/radio_type_button.js begin */
 /**
  * @module radio
  */
@@ -11391,9 +11391,9 @@ function proxyModFromButton(_, data) {
 
 });
 
-/* ../../common.blocks/radio/_type/radio_type_button.js end */
+/* ../../common.components/radio/_type/radio_type_button.js end */
 
-/* ../../common.blocks/radio-group/radio-group.js begin */
+/* ../../common.components/radio-group/radio-group.js begin */
 /**
  * @module radio-group
  */
@@ -11569,9 +11569,9 @@ provide(BEMDOM.decl(this.name, /** @lends radio-group.prototype */{
 
 });
 
-/* ../../common.blocks/radio-group/radio-group.js end */
+/* ../../common.components/radio-group/radio-group.js end */
 
-/* ../../common.blocks/radio-group/_mode/radio-group_mode_radio-check.js begin */
+/* ../../common.components/radio-group/_mode/radio-group_mode_radio-check.js begin */
 /**
  * @module radio-group
  */
@@ -11602,9 +11602,9 @@ provide(RadioGroup.decl({ modName : 'mode', modVal : 'radio-check' }, /** @lends
 
 });
 
-/* ../../common.blocks/radio-group/_mode/radio-group_mode_radio-check.js end */
+/* ../../common.components/radio-group/_mode/radio-group_mode_radio-check.js end */
 
-/* ../../common.blocks/select/select.js begin */
+/* ../../common.components/select/select.js begin */
 /**
  * @module select
  */
@@ -11896,9 +11896,9 @@ provide(BEMDOM.decl(this.name, /** @lends select.prototype */{
 
 });
 
-/* ../../common.blocks/select/select.js end */
+/* ../../common.components/select/select.js end */
 
-/* ../../common.blocks/select/_mode/select_mode_check.js begin */
+/* ../../common.components/select/_mode/select_mode_check.js begin */
 /**
  * @module select
  */
@@ -11957,9 +11957,9 @@ provide(Select.decl({ modName : 'mode', modVal : 'check' }, /** @lends select.pr
 
 });
 
-/* ../../common.blocks/select/_mode/select_mode_check.js end */
+/* ../../common.components/select/_mode/select_mode_check.js end */
 
-/* ../../common.blocks/select/_mode/select_mode_radio-check.js begin */
+/* ../../common.components/select/_mode/select_mode_radio-check.js begin */
 /**
  * @module select
  */
@@ -12006,9 +12006,9 @@ provide(Select.decl({ modName : 'mode', modVal : 'radio-check' }, /** @lends sel
 
 });
 
-/* ../../common.blocks/select/_mode/select_mode_radio-check.js end */
+/* ../../common.components/select/_mode/select_mode_radio-check.js end */
 
-/* ../../common.blocks/select/_mode/select_mode_radio.js begin */
+/* ../../common.components/select/_mode/select_mode_radio.js begin */
 /**
  * @module select
  */
@@ -12037,9 +12037,9 @@ provide(Select.decl({ modName : 'mode', modVal : 'radio' }, /** @lends select.pr
 
 });
 
-/* ../../common.blocks/select/_mode/select_mode_radio.js end */
+/* ../../common.components/select/_mode/select_mode_radio.js end */
 
-/* ../../common.blocks/textarea/textarea.js begin */
+/* ../../common.components/textarea/textarea.js begin */
 /**
  * @module textarea
  */
@@ -12056,9 +12056,9 @@ provide(BEMDOM.decl({ block : this.name, baseBlock : Input }));
 
 });
 
-/* ../../common.blocks/textarea/textarea.js end */
+/* ../../common.components/textarea/textarea.js end */
 
-/* ../../desktop.blocks/input/_autofocus/input_autofocus.js begin */
+/* ../../desktop.components/input/_autofocus/input_autofocus.js begin */
 modules.define('input', ['dom'], function(provide, dom, Input) {
 
 provide(Input.decl({ modName : 'autofocus', modVal : true }, {
@@ -12125,9 +12125,9 @@ function isTextKey(e) {
 
 });
 
-/* ../../desktop.blocks/input/_autofocus/input_autofocus.js end */
+/* ../../desktop.components/input/_autofocus/input_autofocus.js end */
 
-/* ../../design/common.blocks/popup/_theme/popup_theme_islands.js begin */
+/* ../../design/common.components/popup/_theme/popup_theme_islands.js begin */
 modules.define('popup', ['objects'], function(provide, objects, Popup) {
 
 provide(Popup.decl({ modName : 'theme', modVal : 'islands' }, {
@@ -12143,9 +12143,9 @@ provide(Popup.decl({ modName : 'theme', modVal : 'islands' }, {
 
 });
 
-/* ../../design/common.blocks/popup/_theme/popup_theme_islands.js end */
+/* ../../design/common.components/popup/_theme/popup_theme_islands.js end */
 
-/* ../../design/common.blocks/modal/_theme/modal_theme_islands.js begin */
+/* ../../design/common.components/modal/_theme/modal_theme_islands.js begin */
 /**
  * @module modal
  */
@@ -12175,9 +12175,9 @@ provide(Modal.decl({ modName : 'theme', modVal : 'islands' }, /** @lends modal.p
 
 });
 
-/* ../../design/common.blocks/modal/_theme/modal_theme_islands.js end */
+/* ../../design/common.components/modal/_theme/modal_theme_islands.js end */
 
-/* ../../design/common.blocks/progressbar/_theme/progressbar_theme_simple.js begin */
+/* ../../design/common.components/progressbar/_theme/progressbar_theme_simple.js begin */
 /**
  * @module progressbar
  */
@@ -12205,4 +12205,4 @@ provide(Progressbar.decl({ modName : 'theme', modVal : 'simple' }, /** @lends pr
 
 });
 
-/* ../../design/common.blocks/progressbar/_theme/progressbar_theme_simple.js end */
+/* ../../design/common.components/progressbar/_theme/progressbar_theme_simple.js end */

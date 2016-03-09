@@ -6,16 +6,16 @@
 
     content: '';
 }
-/* ../../libs/bem-core/common.blocks/clearfix/clearfix.css:end */
-/* ../../common.blocks/attach/attach.styl:begin */
+/* ../../libs/bem-core/common.components/clearfix/clearfix.css:end */
+/* ../../common.components/attach/attach.styl:begin */
 .attach__file,
 .attach__no-file,
 .attach .button__text,
 .attach .attach_disabled .attach__clear {
   display: none;
 }
-/* ../../common.blocks/attach/attach.styl:end */
-/* ../../common.blocks/icon/icon.styl:begin */
+/* ../../common.components/attach/attach.styl:end */
+/* ../../common.components/icon/icon.styl:begin */
 .icon {
   display: inline-block;
   text-align: center;
@@ -35,29 +35,29 @@
   margin: -5.15em 0 -5em;
   vertical-align: middle;
 }
-/* ../../common.blocks/icon/icon.styl:end */
-/* ../../common.blocks/checkbox/_type/checkbox_type_button.styl:begin */
+/* ../../common.components/icon/icon.styl:end */
+/* ../../common.components/checkbox/_type/checkbox_type_button.styl:begin */
 .checkbox.checkbox_type_button .checkbox__control {
   position: absolute;
   visibility: hidden;
 }
-/* ../../common.blocks/checkbox/_type/checkbox_type_button.styl:end */
-/* ../../common.blocks/popup/popup.styl:begin */
+/* ../../common.components/checkbox/_type/checkbox_type_button.styl:end */
+/* ../../common.components/popup/popup.styl:begin */
 .popup {
   position: absolute;
 }
-/* ../../common.blocks/popup/popup.styl:end */
-/* ../../common.blocks/image/image.styl:begin */
+/* ../../common.components/popup/popup.styl:end */
+/* ../../common.components/image/image.styl:begin */
 .image {
   border: 0;
 }
-/* ../../common.blocks/image/image.styl:end */
-/* ../../common.blocks/menu/menu.styl:begin */
+/* ../../common.components/image/image.styl:end */
+/* ../../common.components/menu/menu.styl:begin */
 .menu {
   overflow-y: auto;
 }
-/* ../../common.blocks/menu/menu.styl:end */
-/* ../../common.blocks/modal/modal.styl:begin */
+/* ../../common.components/menu/menu.styl:end */
+/* ../../common.components/modal/modal.styl:begin */
 .modal {
   position: fixed;
   top: 0;
@@ -81,19 +81,19 @@
   display: inline-block;
   text-align: left;
 }
-/* ../../common.blocks/modal/modal.styl:end */
-/* ../../common.blocks/radio/_type/radio_type_button.styl:begin */
+/* ../../common.components/modal/modal.styl:end */
+/* ../../common.components/radio/_type/radio_type_button.styl:begin */
 .radio.radio_type_button .radio__control {
   position: absolute;
   visibility: hidden;
 }
-/* ../../common.blocks/radio/_type/radio_type_button.styl:end */
-/* ../../common.blocks/select/select.styl:begin */
+/* ../../common.components/radio/_type/radio_type_button.styl:end */
+/* ../../common.components/select/select.styl:begin */
 .select {
   display: inline-block;
 }
-/* ../../common.blocks/select/select.styl:end */
-/* ../../common.blocks/z-index-group/z-index-group.styl:begin */
+/* ../../common.components/select/select.styl:end */
+/* ../../common.components/z-index-group/z-index-group.styl:begin */
 .z-index-group_level_0 {
   z-index: 1000;
 }
@@ -124,8 +124,8 @@
 .z-index-group_level_9 {
   z-index: 10000;
 }
-/* ../../common.blocks/z-index-group/z-index-group.styl:end */
-/* ../../design/common.blocks/attach/_theme/attach_theme_islands.styl:begin */
+/* ../../common.components/z-index-group/z-index-group.styl:end */
+/* ../../design/common.components/attach/_theme/attach_theme_islands.styl:begin */
 .attach_theme_islands {
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
@@ -195,8 +195,8 @@
   display: inline;
   z-index: 1;
 }
-/* ../../design/common.blocks/attach/_theme/attach_theme_islands.styl:end */
-/* ../../design/common.blocks/button/_theme/button_theme_islands.styl:begin */
+/* ../../design/common.components/attach/_theme/attach_theme_islands.styl:end */
+/* ../../design/common.components/button/_theme/button_theme_islands.styl:begin */
 .button_theme_islands {
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
@@ -430,8 +430,8 @@
 .control-group > :only-child .button_theme_islands:before {
   border-radius: 2px;
 }
-/* ../../design/common.blocks/button/_theme/button_theme_islands.styl:end */
-/* ../../design/common.blocks/attach/_theme/attach_theme_simple.styl:begin */
+/* ../../design/common.components/button/_theme/button_theme_islands.styl:end */
+/* ../../design/common.components/attach/_theme/attach_theme_simple.styl:begin */
 .attach_theme_simple {
   display: inline-block;
   white-space: nowrap;
@@ -470,8 +470,8 @@
   display: inline;
   z-index: 1;
 }
-/* ../../design/common.blocks/attach/_theme/attach_theme_simple.styl:end */
-/* ../../design/common.blocks/button/_theme/button_theme_simple.styl:begin */
+/* ../../design/common.components/attach/_theme/attach_theme_simple.styl:end */
+/* ../../design/common.components/button/_theme/button_theme_simple.styl:begin */
 .button_theme_simple {
   font-family: inherit;
   font-size: 100%;
@@ -530,8 +530,8 @@
 .button_theme_simple .icon:last-child {
   margin-right: -0.7em;
 }
-/* ../../design/common.blocks/button/_theme/button_theme_simple.styl:end */
-/* ../../design/common.blocks/checkbox/_theme/checkbox_theme_islands.styl:begin */
+/* ../../design/common.components/button/_theme/button_theme_simple.styl:end */
+/* ../../design/common.components/checkbox/_theme/checkbox_theme_islands.styl:begin */
 .checkbox_theme_islands {
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
@@ -658,8 +658,8 @@ _:future,
 :root .checkbox_theme_islands .checkbox__box {
   pointer-events: none;
 }
-/* ../../design/common.blocks/checkbox/_theme/checkbox_theme_islands.styl:end */
-/* ../../design/common.blocks/checkbox/_theme/checkbox_theme_simple.styl:begin */
+/* ../../design/common.components/checkbox/_theme/checkbox_theme_islands.styl:end */
+/* ../../design/common.components/checkbox/_theme/checkbox_theme_simple.styl:begin */
 .checkbox_theme_simple {
   position: relative;
 }
@@ -695,8 +695,8 @@ _:future,
 :root .checkbox_theme_islands .checkbox__box {
   pointer-events: none;
 }
-/* ../../design/common.blocks/checkbox/_theme/checkbox_theme_simple.styl:end */
-/* ../../design/common.blocks/checkbox-group/_theme/checkbox-group_theme_islands.styl:begin */
+/* ../../design/common.components/checkbox/_theme/checkbox_theme_simple.styl:end */
+/* ../../design/common.components/checkbox-group/_theme/checkbox-group_theme_islands.styl:begin */
 .checkbox-group_theme_islands {
   display: inline-block;
 }
@@ -710,8 +710,8 @@ _:future,
   display: inline-block;
   white-space: nowrap;
 }
-/* ../../design/common.blocks/checkbox-group/_theme/checkbox-group_theme_islands.styl:end */
-/* ../../design/common.blocks/checkbox-group/_theme/checkbox-group_theme_simple.styl:begin */
+/* ../../design/common.components/checkbox-group/_theme/checkbox-group_theme_islands.styl:end */
+/* ../../design/common.components/checkbox-group/_theme/checkbox-group_theme_simple.styl:begin */
 .checkbox-group_theme_simple .checkbox_type_button:first-of-type .button_togglable_check,
 .checkbox-group_theme_simple .checkbox_type_button~ .checkbox_type_button .button_togglable_check {
   border-right-width: 0;
@@ -728,8 +728,8 @@ _:future,
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
-/* ../../design/common.blocks/checkbox-group/_theme/checkbox-group_theme_simple.styl:end */
-/* ../../design/common.blocks/popup/_theme/popup_theme_islands.styl:begin */
+/* ../../design/common.components/checkbox-group/_theme/checkbox-group_theme_simple.styl:end */
+/* ../../design/common.components/popup/_theme/popup_theme_islands.styl:begin */
 .popup_theme_islands {
   display: none;
   visibility: hidden;
@@ -1094,8 +1094,8 @@ _:future,
             transform: translateX(0);
   }
 }
-/* ../../design/common.blocks/popup/_theme/popup_theme_islands.styl:end */
-/* ../../design/common.blocks/link/_theme/link_theme_islands.styl:begin */
+/* ../../design/common.components/popup/_theme/popup_theme_islands.styl:end */
+/* ../../design/common.components/link/_theme/link_theme_islands.styl:begin */
 .link_theme_islands {
   color: #44b;
   cursor: pointer;
@@ -1127,8 +1127,8 @@ _:future,
 .link_theme_islands.link_disabled {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-/* ../../design/common.blocks/link/_theme/link_theme_islands.styl:end */
-/* ../../design/common.blocks/popup/_theme/popup_theme_simple.styl:begin */
+/* ../../design/common.components/link/_theme/link_theme_islands.styl:end */
+/* ../../design/common.components/popup/_theme/popup_theme_simple.styl:begin */
 .popup_theme_simple {
   display: none;
   background: #fff;
@@ -1137,8 +1137,8 @@ _:future,
 .popup_theme_simple.popup_visible {
   display: block;
 }
-/* ../../design/common.blocks/popup/_theme/popup_theme_simple.styl:end */
-/* ../../design/common.blocks/link/_theme/link_theme_simple.styl:begin */
+/* ../../design/common.components/popup/_theme/popup_theme_simple.styl:end */
+/* ../../design/common.components/link/_theme/link_theme_simple.styl:begin */
 .link_theme_simple {
   cursor: pointer;
   text-decoration: underline;
@@ -1153,8 +1153,8 @@ _:future,
 .link_theme_simple:hover {
   color: #c00;
 }
-/* ../../design/common.blocks/link/_theme/link_theme_simple.styl:end */
-/* ../../design/common.blocks/input/_theme/input_theme_islands.styl:begin */
+/* ../../design/common.components/link/_theme/link_theme_simple.styl:end */
+/* ../../design/common.components/input/_theme/input_theme_islands.styl:begin */
 .input_theme_islands {
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
@@ -1336,8 +1336,8 @@ _:future,
 .control-group > :last-child .input_theme_islands:before {
   right: 1px;
 }
-/* ../../design/common.blocks/input/_theme/input_theme_islands.styl:end */
-/* ../../design/common.blocks/input/_theme/input_theme_simple.styl:begin */
+/* ../../design/common.components/input/_theme/input_theme_islands.styl:end */
+/* ../../design/common.components/input/_theme/input_theme_simple.styl:begin */
 .input_theme_simple {
   display: inline-block;
 }
@@ -1423,8 +1423,8 @@ _:future,
 .input_theme_simple.input_focused .input__control:focus {
   outline: none;
 }
-/* ../../design/common.blocks/input/_theme/input_theme_simple.styl:end */
-/* ../../design/common.blocks/menu/_theme/menu_theme_islands.styl:begin */
+/* ../../design/common.components/input/_theme/input_theme_simple.styl:end */
+/* ../../design/common.components/menu/_theme/menu_theme_islands.styl:begin */
 .menu_theme_islands {
   -moz-box-sizing: border-box;
        box-sizing: border-box;
@@ -1529,8 +1529,8 @@ _:future,
   padding-top: 0;
   border-top: 0;
 }
-/* ../../design/common.blocks/menu/_theme/menu_theme_islands.styl:end */
-/* ../../design/common.blocks/menu-item/_theme/menu-item_theme_islands.styl:begin */
+/* ../../design/common.components/menu/_theme/menu_theme_islands.styl:end */
+/* ../../design/common.components/menu-item/_theme/menu-item_theme_islands.styl:begin */
 .menu-item_theme_islands {
   position: relative;
   white-space: nowrap;
@@ -1609,8 +1609,8 @@ _:future,
 .menu_size_xl .menu__group-title ~ .menu-item_theme_islands {
   padding: 0 40px;
 }
-/* ../../design/common.blocks/menu-item/_theme/menu-item_theme_islands.styl:end */
-/* ../../design/common.blocks/menu/_theme/menu_theme_simple.styl:begin */
+/* ../../design/common.components/menu-item/_theme/menu-item_theme_islands.styl:end */
+/* ../../design/common.components/menu/_theme/menu_theme_simple.styl:begin */
 .menu_theme_simple {
   outline: 0;
 }
@@ -1622,8 +1622,8 @@ _:future,
   font-style: italic;
   padding: 4px 10px;
 }
-/* ../../design/common.blocks/menu/_theme/menu_theme_simple.styl:end */
-/* ../../design/common.blocks/menu-item/_theme/menu-item_theme_simple.styl:begin */
+/* ../../design/common.components/menu/_theme/menu_theme_simple.styl:end */
+/* ../../design/common.components/menu-item/_theme/menu-item_theme_simple.styl:begin */
 .menu-item_theme_simple {
   padding: 4px 10px;
   white-space: nowrap;
@@ -1646,8 +1646,8 @@ _:future,
   cursor: pointer;
   background: #ffc7c7;
 }
-/* ../../design/common.blocks/menu-item/_theme/menu-item_theme_simple.styl:end */
-/* ../../design/common.blocks/modal/_theme/modal_theme_islands.styl:begin */
+/* ../../design/common.components/menu-item/_theme/menu-item_theme_simple.styl:end */
+/* ../../design/common.components/modal/_theme/modal_theme_islands.styl:begin */
 .modal_theme_islands {
   display: none;
   visibility: hidden;
@@ -1777,8 +1777,8 @@ _:future,
             transform: scale(1);
   }
 }
-/* ../../design/common.blocks/modal/_theme/modal_theme_islands.styl:end */
-/* ../../design/common.blocks/modal/_theme/modal_theme_simple.styl:begin */
+/* ../../design/common.components/modal/_theme/modal_theme_islands.styl:end */
+/* ../../design/common.components/modal/_theme/modal_theme_simple.styl:begin */
 .modal_theme_simple {
   display: none;
   background: rgba(50,50,50,0.2);
@@ -1790,8 +1790,8 @@ _:future,
   background: #fff;
   border: 1px solid #bfbfbf;
 }
-/* ../../design/common.blocks/modal/_theme/modal_theme_simple.styl:end */
-/* ../../design/common.blocks/page/_theme/page_theme_islands.styl:begin */
+/* ../../design/common.components/modal/_theme/modal_theme_simple.styl:end */
+/* ../../design/common.components/page/_theme/page_theme_islands.styl:begin */
 html {
   min-height: 100%;
 }
@@ -1802,8 +1802,8 @@ html {
   color: #000;
   background: #fff;
 }
-/* ../../design/common.blocks/page/_theme/page_theme_islands.styl:end */
-/* ../../design/common.blocks/progressbar/_theme/progressbar_theme_islands.styl:begin */
+/* ../../design/common.components/page/_theme/page_theme_islands.styl:end */
+/* ../../design/common.components/progressbar/_theme/progressbar_theme_islands.styl:begin */
 .progressbar_theme_islands {
   overflow: hidden;
 }
@@ -1811,8 +1811,8 @@ html {
   height: 2px;
   background: #fc0;
 }
-/* ../../design/common.blocks/progressbar/_theme/progressbar_theme_islands.styl:end */
-/* ../../design/common.blocks/progressbar/_theme/progressbar_theme_simple.styl:begin */
+/* ../../design/common.components/progressbar/_theme/progressbar_theme_islands.styl:end */
+/* ../../design/common.components/progressbar/_theme/progressbar_theme_simple.styl:begin */
 .progressbar_theme_simple {
   font-size: 12px;
   display: -webkit-flex;
@@ -1848,8 +1848,8 @@ html {
 .progressbar_theme_simple .progressbar__text:after {
   content: '%';
 }
-/* ../../design/common.blocks/progressbar/_theme/progressbar_theme_simple.styl:end */
-/* ../../design/common.blocks/radio/_theme/radio_theme_islands.styl:begin */
+/* ../../design/common.components/progressbar/_theme/progressbar_theme_simple.styl:end */
+/* ../../design/common.components/radio/_theme/radio_theme_islands.styl:begin */
 .radio_theme_islands {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -1957,8 +1957,8 @@ html {
 .radio_theme_islands.radio_type_line:last-child {
   margin-right: 0;
 }
-/* ../../design/common.blocks/radio/_theme/radio_theme_islands.styl:end */
-/* ../../design/common.blocks/radio/_theme/radio_theme_simple.styl:begin */
+/* ../../design/common.components/radio/_theme/radio_theme_islands.styl:end */
+/* ../../design/common.components/radio/_theme/radio_theme_simple.styl:begin */
 .radio_theme_simple .radio__control {
   position: absolute;
   z-index: -1;
@@ -1987,8 +1987,8 @@ html {
   content: '\2022';
   background: #fff7db;
 }
-/* ../../design/common.blocks/radio/_theme/radio_theme_simple.styl:end */
-/* ../../design/common.blocks/radio-group/_theme/radio-group_theme_islands.styl:begin */
+/* ../../design/common.components/radio/_theme/radio_theme_simple.styl:end */
+/* ../../design/common.components/radio-group/_theme/radio-group_theme_islands.styl:begin */
 .radio-group_theme_islands {
   display: inline-block;
 }
@@ -2002,8 +2002,8 @@ html {
   display: inline-block;
   white-space: nowrap;
 }
-/* ../../design/common.blocks/radio-group/_theme/radio-group_theme_islands.styl:end */
-/* ../../design/common.blocks/radio-group/_theme/radio-group_theme_simple.styl:begin */
+/* ../../design/common.components/radio-group/_theme/radio-group_theme_islands.styl:end */
+/* ../../design/common.components/radio-group/_theme/radio-group_theme_simple.styl:begin */
 .radio-group_theme_simple .radio_type_button:first-of-type .button_togglable_radio,
 .radio-group_theme_simple .radio_type_button~ .radio_type_button .button_togglable_radio {
   border-right-width: 0;
@@ -2020,8 +2020,8 @@ html {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
-/* ../../design/common.blocks/radio-group/_theme/radio-group_theme_simple.styl:end */
-/* ../../design/common.blocks/select/_theme/select_theme_islands.styl:begin */
+/* ../../design/common.components/radio-group/_theme/radio-group_theme_simple.styl:end */
+/* ../../design/common.components/select/_theme/select_theme_islands.styl:begin */
 .select_theme_islands {
   max-width: 100%;
   vertical-align: bottom;
@@ -2079,8 +2079,8 @@ html {
 .select_theme_islands.select_width_available {
   width: 100%;
 }
-/* ../../design/common.blocks/select/_theme/select_theme_islands.styl:end */
-/* ../../design/common.blocks/spin/_theme/spin_theme_islands.styl:begin */
+/* ../../design/common.components/select/_theme/select_theme_islands.styl:end */
+/* ../../design/common.components/spin/_theme/spin_theme_islands.styl:begin */
 .spin_theme_islands {
   position: absolute;
   display: inline-block;
@@ -2161,8 +2161,8 @@ html {
             transform: rotate(360deg);
   }
 }
-/* ../../design/common.blocks/spin/_theme/spin_theme_islands.styl:end */
-/* ../../design/common.blocks/spin/_theme/spin_theme_simple.styl:begin */
+/* ../../design/common.components/spin/_theme/spin_theme_islands.styl:end */
+/* ../../design/common.components/spin/_theme/spin_theme_simple.styl:begin */
 .spin_theme_simple {
   display: none;
   width: 20px;
@@ -2195,8 +2195,8 @@ html {
             transform: rotate(360deg);
   }
 }
-/* ../../design/common.blocks/spin/_theme/spin_theme_simple.styl:end */
-/* ../../design/common.blocks/textarea/_theme/textarea_theme_islands.styl:begin */
+/* ../../design/common.components/spin/_theme/spin_theme_simple.styl:end */
+/* ../../design/common.components/textarea/_theme/textarea_theme_islands.styl:begin */
 .textarea_theme_islands {
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
@@ -2254,8 +2254,8 @@ html {
   line-height: 22px;
   padding-left: 11px;
 }
-/* ../../design/common.blocks/textarea/_theme/textarea_theme_islands.styl:end */
-/* ../../design/common.blocks/textarea/_theme/textarea_theme_simple.styl:begin */
+/* ../../design/common.components/textarea/_theme/textarea_theme_islands.styl:end */
+/* ../../design/common.components/textarea/_theme/textarea_theme_simple.styl:begin */
 .textarea_theme_simple {
   font-family: inherit;
   font-size: 100%;
@@ -2281,4 +2281,4 @@ html {
 .textarea_theme_simple.textarea_width_available {
   width: 100%;
 }
-/* ../../design/common.blocks/textarea/_theme/textarea_theme_simple.styl:end */
+/* ../../design/common.components/textarea/_theme/textarea_theme_simple.styl:end */

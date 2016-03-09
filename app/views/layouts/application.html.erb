@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="ua_js_yes">
   <head>
     <title><%= content_for(:title) ? yield(:title) : 'Zireael' %></title>
     <%= csrf_meta_tags %>
@@ -9,7 +9,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
   </head>
 
-  <body class="page">
+  <body class="page page_theme_normal i-bem" data-bem='{"page":{}}' style="zoom:1">
     <% flash.each do |name, msg| %>
         <%= content_tag :div, msg, class: "flash flash_type_#{name}" %>
     <% end %>
@@ -28,6 +28,8 @@
       </div>
     </div>
 
-    <%= yield %>
+    <div class="page__content">
+      <%= yield %>
+    </div>
   </body>
 </html>
