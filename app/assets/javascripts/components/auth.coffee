@@ -1,3 +1,4 @@
 
 App.define 'auth', (el) ->
-  console.log 'component:auth is inited'
+  requestAnimationFrame ->
+    el.find('.auth__username .mdl-textfield__input').focus()

@@ -1,34 +1,21 @@
 <% title 'Auth' %>
-<div class="authbox" data-component="auth">
-  <h1>Log in</h1>
+<div class="auth" data-component="auth">
+  <!--<div class="auth__title">Log in</div>-->
+  <h4>Log in</h4>
 
   <%= form_tag sessions_path, class: 'form' do %>
-      <div class="form__field">
-        <%= label_tag :username, nil, class: 'form__label' %>
-        <span class="input input_theme_islands input_size_m i-bem" data-bem='{"input":{}}'>
-          <span class="input__box">
-            <%= text_field_tag :username, params[:username], class: 'input__control', autofocus: true %>
-          </span>
-        </span>
+      <div class="auth__username form__field mdl-textfield mdl-js-textfield">
+        <%= text_field_tag :username, params[:username], class: 'mdl-textfield__input' %>
+        <%= label_tag :username, nil, class: 'mdl-textfield__label' %>
       </div>
-      <div class="form__field">
-        <%= label_tag :password, nil, class: 'form__label' %>
-        <span class="input input_theme_islands input_size_m i-bem" data-bem='{"input":{}}'>
-          <span class="input__box">
-            <%= password_field_tag :password, nil, class: 'input__control' %>
-          </span>
-        </span>
+      <div class="auth__password form__field mdl-textfield mdl-js-textfield">
+        <%= text_field_tag :password, nil, class: 'mdl-textfield__input', type: 'password' %>
+        <%= label_tag :password, nil, class: 'mdl-textfield__label' %>
       </div>
 
       <div class="form__actions">
-
-        <button
-          class="button button_theme_islands button_size_m button_view_action button__control i-bem"
-          data-bem='{"button":{}}'
-          role="button"
-          type="submit"
-        >
-          <span class="button__text">Sign in</span>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" role="button" type="submit">
+          Sign in
         </button>
       </div>
   <% end %>

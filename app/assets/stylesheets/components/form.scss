@@ -4,16 +4,5 @@
     &__field
     {
         display: block;
-
-        &:not(:last-of-type)
-        {
-            margin-bottom: 15px;
-        }
-    }
-
-    &__label
-    {
-        display: block;
-        margin-bottom: 3px;
     }
 }
